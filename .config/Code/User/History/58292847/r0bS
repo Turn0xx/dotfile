@@ -1,0 +1,17 @@
+
+lex.yy.c
+lexeur
+lexer
+foo.c
+foo
+parser
+parseur
+*.tab.c
+*.tab.h
+*.s.vscode
+*.txt
+*.txt
+*.asm
+*.jar
+*.json
+settings.json

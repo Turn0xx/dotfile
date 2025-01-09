@@ -1,0 +1,91 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Cache Node.js modules
+        id: cache-nm
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install Dependencies
+        if: steps.cache-nm.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: built-code
+          path: dist/
+
+  test-unit:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: built-code
+          path: dist/
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install Dependencies
+        if: steps.cache-nm.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Run Unit Tests
+        run: npm run test spec
+
+  test-integration:
+    needs: build
+    runs-on: ubuntu-latest
+
+
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: built-code
+          path: dist/
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Run Integration Tests
+        run: npm run test typeorm

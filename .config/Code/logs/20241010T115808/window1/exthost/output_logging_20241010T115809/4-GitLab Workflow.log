@@ -1,0 +1,17 @@
+2024-10-10T11:58:13:163 [warning]: There is no GitLab account available with access to suggestions
+2024-10-10T11:58:13:222 [info]: Extracted urls: []
+2024-10-10T11:58:13:222 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10T11:58:13:225 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10T11:58:13:225 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10T11:58:13:225 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10T11:58:13:225 [info]: Found 0 projects for urls: []
+2024-10-10T11:58:13:226 [warning]: There is no GitLab account available with access to suggestions
+2024-10-10T11:58:13:747 [info]: Extracted urls: [
+      "git@github.com:EpitechMscProPromo2026/T-POO-700-STG_8.git"
+    ]
+2024-10-10T11:58:13:748 [info]: Found 0 projects for urls: [
+      "git@github.com:EpitechMscProPromo2026/T-POO-700-STG_8.git"
+    ]
+2024-10-10T11:58:13:750 [warning]: There is no GitLab account available with access to suggestions
+2024-10-10T13:29:56:548 [info]: Extracted urls: []
+2024-10-10T13:29:57:126 [info]: Found 0 projects for urls: []

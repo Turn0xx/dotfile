@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "/home/mouad/Documents/Personal/brawhcheat/datasets",
+  "weights_dir": "weights",
+  "runs_dir": "runs",
+  "uuid": "441610947d2bab0c9995320b7978f45bfdf8c0b69a32eb375810852655de7bbd",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": true,
+  "wandb": false,
+  "vscode_msg": true
+}

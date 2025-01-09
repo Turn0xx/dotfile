@@ -1,0 +1,158 @@
+{
+	"notifications": [
+		{
+			"guid": "fc4562fb-e965-4a02-bd6d-0351de2f9236",
+			"timestamp": 1700689562102,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "Sign in to save your images and collaborate with your team",
+				"icon": "login",
+				"type": "general-purpose",
+				"title": "Sign in to your Docker account",
+				"actionText": "Sign in",
+				"action": {
+					"action": "sign-in",
+					"params": {}
+				}
+			}
+		},
+		{
+			"guid": "8924f131-7e6e-43a4-bfd6-c510bdcb88fb",
+			"timestamp": 1728390194711,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "Cannot start Docker Compose application. Reason: compose [start] exit status 1.  Container t-poo-700-stg_8-db-1  Starting\nError response from daemon: Ports are not available: exposing port TCP 0.0.0.0:5432 -> 0.0.0.0:0: listen tcp 0.0.0.0:5432: bind: address already in use\n",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "fafe8742-e062-407a-8ed0-3714fb6ab781",
+			"timestamp": 1728390206257,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "Cannot start Docker Compose application. Reason: compose [start] exit status 1.  Container t-poo-700-stg_8-db-1  Starting\nError response from daemon: Ports are not available: exposing port TCP 0.0.0.0:5432 -> 0.0.0.0:0: listen tcp 0.0.0.0:5432: bind: address already in use\n",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "7ed9e0d7-bb0f-4df3-a965-01ce69e0b145",
+			"timestamp": 1728390309237,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "Error: (HTTP code 500) server error - Ports are not available: exposing port TCP 0.0.0.0:5432 -> 0.0.0.0:0: listen tcp 0.0.0.0:5432: bind: address already in use\n ",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "549ce97b-bfac-494b-8ad4-f6acb7348a47",
+			"timestamp": 1728390320663,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "Error: (HTTP code 500) server error - Ports are not available: exposing port TCP 0.0.0.0:5432 -> 0.0.0.0:0: listen tcp 0.0.0.0:5432: bind: address already in use\n ",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "95ad632b-a18b-4d1d-b570-a53c8f29cbd8",
+			"timestamp": 1728485515858,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"type": "update",
+				"ephemeral": false,
+				"icon": "download",
+				"message": "Docker Desktop 4.34.3 is available.",
+				"actionText": "Download",
+				"action": {
+					"action": "update-available"
+				}
+			}
+		},
+		{
+			"guid": "1c3a5b46-3158-4cf2-9077-be565485255c",
+			"timestamp": 1728485568177,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "Error: (HTTP code 500) server error - Ports are not available: exposing port TCP 0.0.0.0:5432 -> 0.0.0.0:0: listen tcp 0.0.0.0:5432: bind: address already in use\n ",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "a9b3b700-fadc-4ed2-ae5a-4a3cf83d4eae",
+			"timestamp": 1728485573346,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Error: (HTTP code 500) server error - Ports are not available: exposing port TCP 0.0.0.0:5432 -> 0.0.0.0:0: listen tcp 0.0.0.0:5432: bind: address already in use\n ",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "be059fc4-6598-4145-955b-c119f2eba7db",
+			"timestamp": 1728485578501,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Cannot start Docker Compose application. Reason: compose [start] exit status 1.  Container t-poo-700-stg_8-db-1  Starting\nError response from daemon: Ports are not available: exposing port TCP 0.0.0.0:5432 -> 0.0.0.0:0: listen tcp 0.0.0.0:5432: bind: address already in use\n",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "3ca23bfe-5b55-4b12-bc50-23c48ab9d3a3",
+			"timestamp": 1728485604299,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Cannot start Docker Compose application. Reason: compose [start] exit status 1.  Container t-poo-700-stg_8-db-1  Starting\n Container t-poo-700-stg_8-db-1  Started\n Container t-poo-700-stg_8-db-1  Waiting\n Container t-poo-700-stg_8-db-1  Error\ndependency failed to start: container t-poo-700-stg_8-db-1 exited (1)\n",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "5a4c3d37-038e-44f3-997d-854c30c8b2ed",
+			"timestamp": 1728485619811,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Cannot start Docker Compose application. Reason: compose [start] exit status 1.  Container t-poo-700-stg_8-db-1  Starting\n Container t-poo-700-stg_8-db-1  Started\n Container t-poo-700-stg_8-db-1  Waiting\n Container t-poo-700-stg_8-db-1  Error\ndependency failed to start: container t-poo-700-stg_8-db-1 exited (1)\n",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "50dd569d-4aa0-4ed7-b5d3-ab43c3f2b060",
+			"timestamp": 1728633040821,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"message": "Cannot start Docker Compose application. Reason: compose [start] exit status 1.  Container t-poo-700-stg_8-db-1  Starting\n Container t-poo-700-stg_8-client-1  Starting\n Container t-poo-700-stg_8-client-1  Started\n Container t-poo-700-stg_8-db-1  Started\n Container t-poo-700-stg_8-db-1  Waiting\n Container t-poo-700-stg_8-db-1  Error\ndependency failed to start: container t-poo-700-stg_8-db-1 exited (1)\n",
+				"icon": "error",
+				"type": "error"
+			}
+		},
+		{
+			"guid": "2037b71f-15f1-4eeb-ba4f-65c3a3335c98",
+			"timestamp": 1728633338648,
+			"read": true,
+			"displayState": "background",
+			"notification": {
+				"message": "Cannot start Docker Compose application. Reason: compose [start] exit status 1.  Container t-poo-700-stg_8-client-1  Starting\n Container t-poo-700-stg_8-db-1  Starting\n Container t-poo-700-stg_8-db-1  Started\n Container t-poo-700-stg_8-db-1  Waiting\n Container t-poo-700-stg_8-client-1  Started\n Container t-poo-700-stg_8-db-1  Error\ndependency failed to start: container t-poo-700-stg_8-db-1 exited (1)\n",
+				"icon": "error",
+				"type": "error"
+			}
+		}
+	]
+}

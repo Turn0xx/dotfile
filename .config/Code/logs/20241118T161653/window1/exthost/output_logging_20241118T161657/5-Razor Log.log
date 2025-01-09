@@ -1,0 +1,13 @@
+--------------------------------------------------------------------------------
+Razor.VSCode version 9.0.0-preview.24467.1
+--------------------------------------------------------------------------------
+Razor's log level is currently set to 'Information'
+ - To change Razor's log level set 'razor.server.trace' and then restart VSCode.
+ - To report issues invoke the 'Report a Razor issue' command via the command palette.
+-----------------------------------------------------------------------------------------------------------------------------
+
+Using dotnet configured on PATH
+[Client - 4:16:59 PM] Razor language server path: /home/mouad/.vscode/extensions/ms-dotnettools.csharp-2.50.27-linux-x64/.razor/rzls
+[Client - 4:16:59 PM] Server arguments --logLevel 2 --DelegateToCSharpOnDiagnosticPublish true --UpdateBuffersForClosedDocuments true --SingleServerCompletionSupport true --telemetryLevel all --sessionId bf3e7eea-8f9a-4054-8ad2-b788a1a45e0b1731943015215 --telemetryExtensionPath /home/mouad/.vscode/extensions/ms-dotnettools.csharp-2.50.27-linux-x64/.razorDevKit/Microsoft.VisualStudio.DevKit.Razor.dll
+[Client - 4:17:00 PM] No Razor files detected in workspace, delaying language server start.
+[Client - 4:17:45 PM] Disposing Razor Language Server.

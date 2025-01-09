@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: [main , fix/*]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Cache Node.js modules
+        id: cache-node-modules # Ajoutez cette ligne
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+
+      - name: Check Cache Hit
+        id: cache
+        run: echo "Cache hit ${{ steps.cache-node-modules.outputs.cache-hit }}"
+
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: built-code
+          path: dist/
+

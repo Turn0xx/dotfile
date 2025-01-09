@@ -1,0 +1,5 @@
+SENDGRID_API_KEY = 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
+SENDGRID_FROM_EMAIL = 'elhilali.madpro@gmail.com'
+
+GOOGLE_OAUTH2_CLIENT_ID = 171925327981-ls4psb84fvr2ed42t9rtc6ia38l5382a.apps.googleusercontent.com
+GOOGLE_OAUTH2_CLIENT_SECRET = 

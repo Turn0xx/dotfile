@@ -1,0 +1,21 @@
+2024-11-18 16:17:01.006 [warning] /home/mouad/.ssh/config: ENOENT: no such file or directory, open '/home/mouad/.ssh/config'
+2024-11-18 16:17:01.006 [info] Activation> Extension version: 0.88.1
+2024-11-18 16:17:02.190 [info] Looking for git repository
+2024-11-18 16:17:02.190 [info] Found 0 repositories during activation
+2024-11-18 16:17:02.190 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-18 16:17:02.193 [info] Registering git provider
+2024-11-18 16:17:02.193 [info] Review+0> Validate state in progress
+2024-11-18 16:17:02.193 [info] Review+0> Validating state...
+2024-11-18 16:17:02.274 [info] Repo state for file:///home/mouad/Documents/Epitech/Trinity/DevOps changed.
+2024-11-18 16:17:02.274 [info] Repo file:///home/mouad/Documents/Epitech/Trinity/DevOps has already been setup.
+2024-11-18 16:17:02.895 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:17:02.896 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-11-18 16:17:02.896 [info] No GitHub remotes found for folder /home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18 16:17:02.898 [info] Trying to use globalState for assignableUsers.
+2024-11-18 16:17:02.955 [info] Review+0> No matching pull request metadata found locally for current branch branch-test-2
+2024-11-18 16:17:02.956 [info] Review+0> No matching pull request metadata found on GitHub for current branch branch-test-2
+2024-11-18 16:17:11.173 [info] Using globalState assignableUsers for 0.
+2024-11-18 16:17:11.543 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:17:11.551 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:17:11.556 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:17:11.575 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}

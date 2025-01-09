@@ -1,0 +1,46 @@
+layout {
+
+    tab name="Terminal" focus=true{
+        
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+    
+
+        pane
+
+        
+        pane size=1 borderless=true {
+            plugin location="zellij:status-bar"
+        }
+
+    }
+
+    tab name="Editor" {
+        
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+    
+
+        pane {
+            borderless true
+            command "nvim"
+        }
+
+    }
+
+    tab name="Git" {
+
+        
+        pane size=1 borderless=true {
+            plugin location="zellij:tab-bar"
+        }
+    
+
+        pane command="lazygit"
+        
+
+    }
+
+}

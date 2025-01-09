@@ -1,0 +1,24 @@
+Using dotnet configured on PATH
+Dotnet path: /usr/lib/dotnet/dotnet
+Activating C# + C# Dev Kit...
+waiting for named pipe information from server...
+[stdout] {"pipeName":"/tmp/de9504d5.sock"}
+received named pipe information from server
+attempting to connect client to server...
+client has connected to server
+[Info  - 10:18:40 AM] [Program] Language server initialized
+[Info  - 10:18:45 AM] [WorkspaceProjectFactoryService] Project /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend/backend.csproj loaded by C# Dev Kit
+[Info  - 10:19:35 AM] Shutting down
+Using dotnet configured on PATH
+Dotnet path: /usr/lib/dotnet/dotnet
+Activating C# + C# Dev Kit...
+waiting for named pipe information from server...
+[stdout] fail: Microsoft.CodeAnalysis.LanguageServer.ExportProviderBuilder[0]
+      /home/mouad/.vscode/extensions/ms-dotnettools.csharp-2.50.27-linux-x64/.xamlTools/Microsoft.VisualStudio.DesignTools.CodeAnalysis.dll with assembly name Microsoft.VisualStudio.DesignTools.CodeAnalysis, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a conflicts with extension loaded from /home/mouad/.vscode/extensions/ms-dotnettools.csharp-2.50.27-linux-x64/.xamlTools
+[stdout] fail: Microsoft.CodeAnalysis.LanguageServer.ExportProviderBuilder[0]
+      /home/mouad/.vscode/extensions/ms-dotnettools.csharp-2.50.27-linux-x64/.xamlTools/Microsoft.VisualStudio.DesignTools.CodeAnalysis.Diagnostics.dll with assembly name Microsoft.VisualStudio.DesignTools.CodeAnalysis.Diagnostics, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a conflicts with extension loaded from /home/mouad/.vscode/extensions/ms-dotnettools.csharp-2.50.27-linux-x64/.xamlTools
+[stdout] {"pipeName":"/tmp/c154797f.sock"}
+received named pipe information from server
+attempting to connect client to server...
+client has connected to server
+[Info  - 10:19:37 AM] [Program] Language server initialized

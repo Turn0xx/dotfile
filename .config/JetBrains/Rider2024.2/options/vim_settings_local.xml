@@ -1,0 +1,124 @@
+<application>
+  <component name="VimJumpsSettings">
+    <project id="backend-f610ae24">
+      <jump line="0" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="15" column="0" filename="$USER_HOME$/.ideavimrc" protocol="file" />
+      <jump line="39" column="0" filename="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" protocol="file" />
+      <jump line="21" column="1" filename="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" protocol="file" />
+      <jump line="17" column="0" filename="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" protocol="file" />
+      <jump line="26" column="34" filename="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" protocol="file" />
+      <jump line="20" column="66" filename="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" protocol="file" />
+      <jump line="44" column="0" filename="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" protocol="file" />
+      <jump line="16" column="23" filename="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" protocol="file" />
+      <jump line="19" column="0" filename="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" protocol="file" />
+    </project>
+    <project id="ModularMonolithDDD-1549e924">
+      <jump line="9" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="15" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="6" column="38" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="0" column="6" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="21" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistrationId.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistrationStatus.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/IUsersCounter.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/Domain/UserRegistrations/UserRegistrationRepository.cs" protocol="file" />
+      <jump line="6" column="13" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/Users/UserAccessGateway.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/RegistrationsContext.cs" protocol="file" />
+      <jump line="22" column="4" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/RegistrationsContext.cs" protocol="file" />
+      <jump line="13" column="43" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/RegistrationsContext.cs" protocol="file" />
+      <jump line="11" column="29" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/RegistrationsContext.cs" protocol="file" />
+      <jump line="9" column="60" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/RegistrationsContext.cs" protocol="file" />
+      <jump line="15" column="45" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/RegistrationsContext.cs" protocol="file" />
+      <jump line="17" column="45" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/RegistrationsContext.cs" protocol="file" />
+    </project>
+    <project id="CompanyName.MyMeetings-c24bd593">
+      <jump line="2" column="26" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/BuildingBlocks/Domain/Entity.cs" protocol="file" />
+      <jump line="7" column="26" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/BuildingBlocks/Domain/Entity.cs" protocol="file" />
+      <jump line="6" column="36" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="11" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="9" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="97" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="13" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="12" column="28" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="10" column="28" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="33" column="39" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/IntegrationEvents/NewUserRegisteredIntegrationEvent.cs" protocol="file" />
+      <jump line="4" column="58" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/IntegrationEvents/NewUserRegisteredIntegrationEvent.cs" protocol="file" />
+      <jump line="5" column="17" filename="$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/225dd19ef9e59a5b94de2bcd4b7b38cdca205bdfea4a7361ed03c5f79a36/INotification.cs" protocol="file" />
+      <jump line="4" column="47" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/BuildingBlocks/Infrastructure/EventBus/IntegrationEvent.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/UserAccess/Domain/Users/User.cs" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/UserAccess/Domain/Users/UserRole.cs" protocol="file" />
+      <jump line="11" column="0" filename="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/UserAccess/Domain/Users/UserRole.cs" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/BuildingBlocks/Infrastructure/EventBus/IntegrationEvent.cs" timestamp="1730848764385">
+        <mark key="'" line="4" column="47" />
+      </file>
+      <file name="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Domain/UserRegistrations/UserRegistration.cs" timestamp="1730848645266">
+        <mark key="'" line="97" column="0" />
+        <mark key="[" line="1" column="3" />
+        <mark key="]" line="1" column="3" />
+        <mark key="." line="1" column="2" />
+        <mark key="^" line="1" column="3" />
+      </file>
+      <file name="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend/Program.cs" timestamp="1730806772720">
+        <mark key="[" line="25" column="35" />
+        <mark key="]" line="25" column="34" />
+        <mark key="^" line="25" column="34" />
+        <mark key="." line="25" column="33" />
+      </file>
+      <file name="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/IntegrationEvents/NewUserRegisteredIntegrationEvent.cs" timestamp="1730848755818">
+        <mark key="'" line="4" column="58" />
+      </file>
+      <file name="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/Modules/Registrations/Infrastructure/RegistrationsContext.cs" timestamp="1730848450793">
+        <mark key="'" line="17" column="45" />
+        <mark key="[" line="17" column="44" />
+        <mark key="]" line="17" column="44" />
+        <mark key="^" line="17" column="44" />
+        <mark key="." line="17" column="43" />
+      </file>
+      <file name="$USER_HOME$/Documents/Personal/ModularMonolithDDD/README.md" timestamp="1730848117937">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/225dd19ef9e59a5b94de2bcd4b7b38cdca205bdfea4a7361ed03c5f79a36/INotification.cs" timestamp="1730848779638">
+        <mark key="&quot;" line="5" column="17" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="1" type="LINE_WISE">
+        <text encoding="base64">dXNpbmcgQ29tcGFueU5hbWUuTXlNZWV0aW5ncy5CdWlsZGluZ0Jsb2Nrcy5Eb21haW47CnVzaW5nIENvbXBhbnlOYW1lLk15TWVldGluZ3MuTW9kdWxlcy5SZWdpc3RyYXRpb25zLkRvbWFpbi5Vc2VyUmVnaXN0cmF0aW9ucy5FdmVudHM7Cg==</text>
+      </register>
+      <register name="&quot;" type="CHARACTER_WISE">
+        <text encoding="base64">bg==</text>
+      </register>
+      <register name="+" type="CHARACTER_WISE">
+        <text encoding="base64">bg==</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">bg==</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64" />
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-offset encoding="base64" />
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

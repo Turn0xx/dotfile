@@ -1,0 +1,30 @@
+2024-10-10 11:53:20.535 [info] Extension host with pid 96098 started
+2024-10-10 11:53:20.535 [info] Skipping acquiring lock for /home/mouad/.config/Code/User/workspaceStorage/51294e8f1a1b20d7e815c3bbe0a2d6df.
+2024-10-10 11:53:21.022 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-10 11:53:21.040 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2024-10-10 11:53:25.872 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-10 11:53:25.903 [info] ExtensionService#_doActivateExtension mhutchie.git-graph, startup: true, activationEvent: '*'
+2024-10-10 11:53:25.998 [info] ExtensionService#_doActivateExtension Zignd.html-css-class-completion, startup: true, activationEvent: '*'
+2024-10-10 11:53:28.614 [info] Not activating extension 'github.vscode-github-actions': Timed out while searching for 'workspaceContains' pattern **/.github/workflows/**
+2024-10-10 11:53:28.618 [info] Not activating extension 'vitest.explorer': Timed out while searching for 'workspaceContains' pattern **/*{vite,vitest}*.config*.{ts,js,mjs,cjs,cts,mts},**/*vitest.{workspace,projects}*.{ts,js,mjs,cjs,cts,mts,json}
+2024-10-10 11:53:33.088 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:33.112 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:33.133 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:33.184 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:33.192 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:33.259 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:33.619 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:33.750 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2024-10-10 11:53:33.797 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:33.971 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:34.273 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-wsl, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:34.600 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:34.743 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:34.791 [info] ExtensionService#_doActivateExtension usernamehw.errorlens, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:34.800 [info] ExtensionService#_doActivateExtension vadimcn.vscode-lldb, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:34.813 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:53:35.142 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-10 11:53:35.277 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-10 11:53:56.522 [info] Eager extensions activated
+2024-10-10 11:54:24.976 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2024-10-10 11:54:26.475 [info] ExtensionService#_doActivateExtension GitLab.gitlab-workflow, startup: false, activationEvent: 'onStartupFinished'

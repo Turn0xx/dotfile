@@ -1,0 +1,30 @@
+2024/11/21-17:35:57.216 7d3b Reusing MANIFEST /home/mouad/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2024/11/21-17:35:57.216 7d3b Recovering log #4
+2024/11/21-17:35:57.223 7d3b Reusing old log /home/mouad/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000004.log 
+2024/11/21-17:36:04.348 7d3c Level-0 table #8: started
+2024/11/21-17:36:04.375 7d3c Level-0 table #8: 2461105 bytes OK
+2024/11/21-17:36:04.377 7d3c Delete type=0 #4
+2024/11/21-17:36:57.862 7d3c Level-0 table #10: started
+2024/11/21-17:36:57.890 7d3c Level-0 table #10: 2406803 bytes OK
+2024/11/21-17:36:57.892 7d3c Delete type=0 #7
+2024/11/21-17:40:10.047 7d3c Compacting 1@0 + 1@1 files
+2024/11/21-17:40:10.063 7d3c Generated table #11@0: 9 keys, 218648 bytes
+2024/11/21-17:40:10.063 7d3c Compacted 1@0 + 1@1 files => 218648 bytes
+2024/11/21-17:40:10.065 7d3c compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/21-17:40:10.065 7d3c Delete type=2 #10
+2024/11/21-17:40:10.065 7d3c Delete type=2 #8
+2024/11/21-17:56:39.987 7d3c Compacting 1@1 + 1@2 files
+2024/11/21-17:56:39.996 7d3c Generated table #12@1: 19 keys, 218766 bytes
+2024/11/21-17:56:39.996 7d3c Compacted 1@1 + 1@2 files => 218766 bytes
+2024/11/21-17:56:39.997 7d3c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/21-17:56:39.998 7d3c Delete type=2 #5
+2024/11/21-17:56:39.998 7d3c Delete type=2 #11
+2024/11/21-19:22:02.453 7d3c Level-0 table #14: started
+2024/11/21-19:22:02.468 7d3c Level-0 table #14: 597378 bytes OK
+2024/11/21-19:22:02.471 7d3c Delete type=0 #9
+2024/11/21-19:23:15.012 7d3c Compacting 1@1 + 1@2 files
+2024/11/21-19:23:15.022 7d3c Generated table #15@1: 20 keys, 228912 bytes
+2024/11/21-19:23:15.022 7d3c Compacted 1@1 + 1@2 files => 228912 bytes
+2024/11/21-19:23:15.024 7d3c compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/21-19:23:15.024 7d3c Delete type=2 #12
+2024/11/21-19:23:15.024 7d3c Delete type=2 #14

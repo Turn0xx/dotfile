@@ -1,0 +1,6 @@
+2024/11/21-17:35:56.412 4 Reusing MANIFEST /home/mouad/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2024/11/21-17:35:56.413 4 Recovering log #3
+2024/11/21-17:35:56.415 4 Reusing old log /home/mouad/.config/google-chrome/Default/Local Storage/leveldb/000003.log 
+2024/11/21-18:59:22.698 6 Level-0 table #5: started
+2024/11/21-18:59:22.704 6 Level-0 table #5: 30524 bytes OK
+2024/11/21-18:59:22.706 6 Delete type=0 #3

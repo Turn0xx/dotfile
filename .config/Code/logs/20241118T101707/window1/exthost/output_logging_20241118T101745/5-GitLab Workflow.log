@@ -1,0 +1,13 @@
+2024-11-18T10:17:51:869 [warning]: There is no GitLab account available with access to suggestions
+2024-11-18T10:17:51:877 [info]: Extracted urls: []
+2024-11-18T10:17:51:880 [info]: Extracted urls: []
+2024-11-18T10:17:51:881 [info]: More recent project update in progress, discarding findings for urls: []
+2024-11-18T10:17:51:882 [info]: Found 0 projects for urls: []
+2024-11-18T10:17:51:882 [warning]: There is no GitLab account available with access to suggestions
+2024-11-18T10:18:05:754 [info]: Extracted urls: [
+      "https://t-dev.epitest.eu/STG_9/T-DEV-701-Devops.git"
+    ]
+2024-11-18T10:18:05:755 [info]: Found 0 projects for urls: [
+      "https://t-dev.epitest.eu/STG_9/T-DEV-701-Devops.git"
+    ]
+2024-11-18T10:18:05:756 [warning]: There is no GitLab account available with access to suggestions

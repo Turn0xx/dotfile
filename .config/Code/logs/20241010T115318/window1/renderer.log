@@ -1,0 +1,16 @@
+2024-10-10 11:53:19.843 [info] Started local extension host with pid 96098.
+2024-10-10 11:53:20.067 [error] [/home/mouad/.vscode/extensions/franneck94.c-cpp-runner-9.4.9]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.90.0.
+2024-10-10 11:53:20.068 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-10-10 11:53:20.070 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-10-10 11:53:20.133 [error] [/home/mouad/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2024-10-10 11:53:20.140 [error] [/home/mouad/.vscode/extensions/ms-azuretools.vscode-docker-1.29.3]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-10-10 11:53:20.142 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2024-10-10 11:53:20.143 [error] [/home/mouad/.vscode/extensions/github.vscode-pull-request-github-0.98.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-10-10 11:53:20.149 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2024-10-10 11:53:20.432 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-10-10 11:53:37.251 [info] Extension host (LocalProcess pid: 96098) is unresponsive.
+2024-10-10 11:53:54.325 [info] Extension host (LocalProcess pid: 96098) is responsive.
+2024-10-10 11:54:29.693 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2024-10-10 11:54:33.674 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage

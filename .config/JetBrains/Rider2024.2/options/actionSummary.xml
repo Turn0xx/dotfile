@@ -1,0 +1,109 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ActivateBookmarksToolWindow">
+      <i c="4" l="1730848619404" />
+    </e>
+    <e n="ActivateProjectToolWindow">
+      <i c="5" l="1730848619888" />
+    </e>
+    <e n="ChangeKeymap">
+      <i c="1" l="1730806647330" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="9" l="1730806772059" />
+    </e>
+    <e n="EditorEnter">
+      <i c="2" l="1730806770744" />
+    </e>
+    <e n="EditorEscape">
+      <i c="15" l="1730848645261" />
+    </e>
+    <e n="EditorTab">
+      <i c="2" l="1730806771366" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="1" l="1730848236859" />
+    </e>
+    <e n="FileChooser.GotoDesktop">
+      <i c="2" l="1730806446153" />
+    </e>
+    <e n="FileChooser.GotoHome">
+      <i c="1" l="1730806445054" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="36" l="1730848764394" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="1" l="1730806704979" />
+    </e>
+    <e n="QuickJavaDoc">
+      <i c="7" l="1730848856658" />
+    </e>
+    <e n="RiderNewSolution">
+      <i c="1" l="1730848476498" />
+    </e>
+    <e n="RiderOpenSolution">
+      <i c="4" l="1730848479602" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1730806643778" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="1" l="1730848260267" />
+    </e>
+    <e n="ToggleLineBreakpoint">
+      <i c="1" l="1730848679769" />
+    </e>
+    <e n="Tree-selectChild">
+      <i c="1" l="1730848152772" />
+    </e>
+    <e n="Tree-selectNext">
+      <i c="64" l="1730848147846" />
+    </e>
+    <e n="Tree-selectPrevious">
+      <i c="39" l="1730848148291" />
+    </e>
+    <e n="VimPluginToggle">
+      <i c="3" l="1730848863395" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="925" l="1730848663270" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$8">
+      <i c="1" l="1730848288361" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="4" l="1730848691039" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="3" l="1730848779619" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="6" l="1730848548721" />
+    </e>
+    <e n="com.intellij.toolWindow.ShowMoreToolWindowsAction">
+      <i c="1" l="1730806634416" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="6" l="1730848704280" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$TableMoveDownAction">
+      <i c="1" l="1730848599249" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$TableMoveEndAction">
+      <i c="1" l="1730848759991" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$TableMoveUpAction">
+      <i c="11" l="1730848600517" />
+    </e>
+    <e n="com.jetbrains.rider.intentions.gutterWrappers.BackendGutterMarkWrapper$getClickAction$1">
+      <i c="2" l="1730848682057" />
+    </e>
+    <e n="com.jetbrains.rider.projectView.views.SolutionViewPaneBase$initTreeHandlers$enterHandler$1">
+      <i c="1" l="1730848149692" />
+    </e>
+    <e n="com.maddyhome.idea.vim.group.NotificationService$OpenIdeaVimRcAction">
+      <i c="1" l="1730806581227" />
+    </e>
+  </component>
+</application>

@@ -1,0 +1,6 @@
+2024-11-18 16:18:31.764 [info] Getting sessions for all scopes...
+2024-11-18 16:18:31.764 [info] Got 2 sessions for all scopes...
+2024-11-18 16:18:31.830 [info] [VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 16:18:31.830 [info] [VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 1 sessions
+2024-11-18 16:18:31.831 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 16:18:31.831 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 1 sessions

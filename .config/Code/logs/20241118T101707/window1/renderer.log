@@ -1,0 +1,65 @@
+2024-11-18 10:17:08.454 [error] Error: The editor could not be opened because the file was not found.
+    at N.gc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2152:28256)
+    at async N.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2152:27312)
+    at async n.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:24778)
+    at async n.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:23342)
+    at async n.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:22331)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2307:24165
+2024-11-18 10:17:08.543 [info] Started local extension host with pid 50495.
+2024-11-18 10:17:08.696 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:08.698 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:08.699 [error] [/home/mouad/.vscode/extensions/franneck94.c-cpp-runner-9.4.9]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.90.0.
+2024-11-18 10:17:08.738 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2024-11-18 10:17:08.739 [error] [/home/mouad/.vscode/extensions/github.vscode-pull-request-github-0.98.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:08.740 [error] [/home/mouad/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2024-11-18 10:17:08.750 [error] [/home/mouad/.vscode/extensions/ms-azuretools.vscode-docker-1.29.3]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:08.751 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2024-11-18 10:17:08.846 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-11-18 10:17:11.585 [info] [perf] Render performance baseline is 186ms
+2024-11-18 10:17:22.600 [error] [Extension Host] [chat] Registration of interactive providers failed: Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-11-18 10:17:44.630 [info] Started local extension host with pid 51354.
+2024-11-18 10:17:44.772 [error] [/home/mouad/.vscode/extensions/franneck94.c-cpp-runner-9.4.9]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.90.0.
+2024-11-18 10:17:44.774 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:44.774 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:44.779 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.2]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:44.781 [error] [/home/mouad/.vscode/extensions/michaelcurrin.auto-commit-msg-0.27.2]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:44.813 [error] [/home/mouad/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2024-11-18 10:17:44.816 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2024-11-18 10:17:44.817 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2024-11-18 10:17:44.820 [error] [/home/mouad/.vscode/extensions/github.vscode-pull-request-github-0.98.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:44.825 [error] [/home/mouad/.vscode/extensions/ms-azuretools.vscode-docker-1.29.3]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-11-18 10:17:44.827 [error] [/home/mouad/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2024-11-18 10:17:44.828 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.22.2]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.95.0-20241022.
+2024-11-18 10:17:44.830 [error] [/home/mouad/.vscode/extensions/github.vscode-pull-request-github-0.100.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.95.0.
+2024-11-18 10:17:44.968 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-11-18 10:17:44.968 [error] Extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2024-11-18 10:17:48.207 [info] [perf] Render performance baseline is 168ms
+2024-11-18 10:17:49.462 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-11-18 10:17:52.077 [error] [Extension Host] [chat] Registration of interactive providers failed: Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-11-18 10:17:52.080 [error] No registered selector for ID: copilot-chat.fixWithCopilot
+2024-11-18 10:17:52.081 [error] No registered selector for ID: copilot-chat.generateCommitMessage
+2024-11-18 10:18:19.890 [error] Cancelled: Canceled
+    at ee.B (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:792:24018)
+    at async ee.z (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:792:20814)
+    at async ee.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:792:17451)
+    at async X.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2477:14090)
+    at async Oe.Oc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2413:25245)
+    at async Oe.Xc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2413:28002)
+    at async Oe.uc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2413:14733)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2413:13032
+2024-11-18 10:18:37.925 [error] [Extension Host] (node:51354) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2024-11-18 10:19:03.230 [info] Settings Sync: Updating due to change in sessions
+2024-11-18 10:19:03.258 [info] Settings Sync: Updating due to change in sessions
+2024-11-18 10:19:03.766 [info] Settings Sync: Updating due to change in sessions
+2024-11-18 10:59:31.340 [info] Settings Sync: Updating due to change in sessions

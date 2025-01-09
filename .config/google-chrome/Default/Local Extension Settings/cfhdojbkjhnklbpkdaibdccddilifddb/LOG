@@ -1,0 +1,12 @@
+2024/11/22-19:19:13.416 dda Reusing MANIFEST /home/mouad/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2024/11/22-19:19:13.417 dda Recovering log #13
+2024/11/22-19:19:13.422 dda Reusing old log /home/mouad/.config/google-chrome/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/000013.log 
+2024/11/24-16:54:29.424 ddb Level-0 table #18: started
+2024/11/24-16:54:29.461 ddb Level-0 table #18: 861090 bytes OK
+2024/11/24-16:54:29.466 ddb Delete type=0 #13
+2024/11/24-18:42:58.056 ddb Compacting 1@1 + 1@2 files
+2024/11/24-18:42:58.069 ddb Generated table #19@1: 20 keys, 236191 bytes
+2024/11/24-18:42:58.069 ddb Compacted 1@1 + 1@2 files => 236191 bytes
+2024/11/24-18:42:58.071 ddb compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/24-18:42:58.072 ddb Delete type=2 #15
+2024/11/24-18:42:58.072 ddb Delete type=2 #18

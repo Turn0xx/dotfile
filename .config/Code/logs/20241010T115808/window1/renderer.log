@@ -1,0 +1,76 @@
+2024-10-10 11:58:09.479 [info] Started local extension host with pid 4113.
+2024-10-10 11:58:09.590 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2024-10-10 11:58:12.524 [info] [perf] Render performance baseline is 162ms
+2024-10-10 11:58:12.848 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-10-10 11:58:12.848 [error] [/home/mouad/.vscode/extensions/franneck94.c-cpp-runner-9.4.9]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.90.0.
+2024-10-10 11:58:12.850 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-10-10 11:58:12.931 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2024-10-10 11:58:12.932 [error] [/home/mouad/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2024-10-10 11:58:12.934 [error] [/home/mouad/.vscode/extensions/github.vscode-pull-request-github-0.98.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-10-10 11:58:12.936 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2024-10-10 11:58:12.946 [error] [/home/mouad/.vscode/extensions/ms-azuretools.vscode-docker-1.29.3]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2024-10-10 11:58:13.135 [error] [Extension Host] [chat] Registration of interactive providers failed: Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-10-10 11:58:13.657 [error] [Extension Host] Error: Please provide instrumentation key
+    at xn (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:13:16459)
+    at /home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:14:32074
+    at Object.ce [as use] (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:14:12224)
+    at Yv (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:14:13139)
+    at Object.ce [as watch] (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:14:13380)
+    at o.Be.<computed> [as initialize] (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:14:31871)
+    at o.ce [as initialize] (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:13:25815)
+    at F (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:20:14156)
+    at /home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:20:13491
+    at to (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:13:26576)
+    at new o (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:20:13429)
+    at Nx (/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/out/extension.js:20:15404)
+2024-10-10 11:58:50.679 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2024-10-10 11:58:50.679 [error] [Extension Host] Error: Failed to execute git
+    at t.Git._exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:906914)
+    at t.Git.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:905982)
+    at N.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:911485)
+    at N.diffFiles (/usr/share/code/resources/app/extensions/git/dist/main.js:2:916348)
+    at N.diffBetween (/usr/share/code/resources/app/extensions/git/dist/main.js:2:915958)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1023664)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1023268)
+    at Y.openMergeEditor (/usr/share/code/resources/app/extensions/git/dist/main.js:2:808335)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189457)
+2024-10-10 11:59:56.850 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2024-10-10 11:59:56.851 [error] [Extension Host] Error: Failed to execute git
+    at t.Git._exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:906914)
+    at t.Git.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:905982)
+    at N.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:911485)
+    at N.diffFiles (/usr/share/code/resources/app/extensions/git/dist/main.js:2:916348)
+    at N.diffBetween (/usr/share/code/resources/app/extensions/git/dist/main.js:2:915958)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1023664)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1023268)
+    at Y.openMergeEditor (/usr/share/code/resources/app/extensions/git/dist/main.js:2:808335)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189457)
+2024-10-10 12:00:29.564 [error] [Extension Host] FAILED to read HEAD, MERGE_HEAD commits
+2024-10-10 12:00:29.565 [error] [Extension Host] Error: Failed to execute git
+    at t.Git._exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:906914)
+    at t.Git.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:905982)
+    at N.exec (/usr/share/code/resources/app/extensions/git/dist/main.js:2:911485)
+    at N.diffFiles (/usr/share/code/resources/app/extensions/git/dist/main.js:2:916348)
+    at N.diffBetween (/usr/share/code/resources/app/extensions/git/dist/main.js:2:915958)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1023664)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1023268)
+    at Y.openMergeEditor (/usr/share/code/resources/app/extensions/git/dist/main.js:2:808335)
+    at r.h (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:189457)
+2024-10-10 13:28:35.896 [error] Error: The editor could not be opened because the file was not found.
+    at N.gc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2152:28256)
+    at async N.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2152:27312)
+    at async n.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:24778)
+    at async n.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:23342)
+    at async n.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:22331)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2307:24165
+2024-10-10 13:28:58.309 [error] Error: The editor could not be opened because the file was not found.
+    at N.gc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2152:28256)
+    at async N.setInput (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2152:27312)
+    at async n.S (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:24778)
+    at async n.L (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:23342)
+    at async n.openEditor (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2150:22331)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2307:24165

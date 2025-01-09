@@ -1,0 +1,25 @@
+ 
+/* .text-colors-input > * > textarea{
+width:40em;
+height: 100%;
+}
+
+.text-colors-input > div > div {
+}
+
+.text-colors-input > * {
+height: 100%;
+width: 60em;
+}
+
+.text-colors-input {
+height: 70%;
+} */
+.setting-item > .text-colors-input > *:first-child {
+    margin-right: 16px;
+    margin-top: -260px;
+}
+
+.setting-item > .text-colors-input-error {
+    background-color: red;
+}

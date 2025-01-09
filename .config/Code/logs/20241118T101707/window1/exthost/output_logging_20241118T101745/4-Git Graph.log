@@ -1,0 +1,9 @@
+[2024-11-18 10:17:50.607] Starting Git Graph ...
+[2024-11-18 10:17:50.648] Using git (version: 2.34.1)
+[2024-11-18 10:17:50.652] Started Git Graph - Ready to use!
+[2024-11-18 10:17:50.652] Searching workspace for new repos ...
+[2024-11-18 10:17:50.663] > git rev-parse --show-toplevel
+[2024-11-18 10:17:50.973] Successfully set Visual Studio Code Context "git-graph:codiconsSupported" to "true"
+[2024-11-18 10:17:51.090] Added new repo: /home/mouad/Documents/Epitech/Trinity/DevOps
+[2024-11-18 10:17:51.102] Completed searching workspace for new repos
+[2024-11-18 10:17:51.102] Showing "Git Graph" Status Bar Item

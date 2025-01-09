@@ -1,0 +1,28 @@
+2024-11-18 13:49:01.482 [warning] /home/mouad/.ssh/config: ENOENT: no such file or directory, open '/home/mouad/.ssh/config'
+2024-11-18 13:49:01.482 [info] Activation> Extension version: 0.88.1
+2024-11-18 13:49:01.911 [info] Looking for git repository
+2024-11-18 13:49:01.911 [info] Found 0 repositories during activation
+2024-11-18 13:49:01.911 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-18 13:49:01.916 [info] Registering git provider
+2024-11-18 13:49:01.916 [info] Review+0> Validate state in progress
+2024-11-18 13:49:01.916 [info] Review+0> Validating state...
+2024-11-18 13:49:01.974 [info] Repo state for file:///home/mouad/Documents/Epitech/Trinity/DevOps changed.
+2024-11-18 13:49:01.974 [info] Repo file:///home/mouad/Documents/Epitech/Trinity/DevOps has already been setup.
+2024-11-18 13:49:02.438 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 13:49:02.438 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-11-18 13:49:02.438 [info] No GitHub remotes found for folder /home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18 13:49:02.440 [info] Trying to use globalState for assignableUsers.
+2024-11-18 13:49:02.454 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 13:49:02.455 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 13:49:02.456 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 13:49:02.457 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 13:49:02.474 [info] Review+0> No matching pull request metadata found locally for current branch tests/init
+2024-11-18 13:49:02.474 [info] Using globalState assignableUsers for 0.
+2024-11-18 13:49:02.498 [info] Review+0> No matching pull request metadata found on GitHub for current branch tests/init
+2024-11-18 14:54:04.364 [info] Review+0> Validate state in progress
+2024-11-18 14:54:04.365 [info] Review+0> Validating state...
+2024-11-18 14:54:04.368 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-11-18 14:54:04.368 [info] No GitHub remotes found for folder /home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18 14:54:04.370 [info] Using in-memory cached assignable users.
+2024-11-18 14:54:04.409 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-18 14:54:04.409 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

@@ -1,0 +1,10 @@
+latest
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch fix/ci
+# Your branch is up to date with 'origin/fix/ci'.
+#
+# Changes to be committed:
+#	modified:   .github/workflows/build-test.yml
+#

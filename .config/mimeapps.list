@@ -1,0 +1,15 @@
+[Default Applications]
+text/html=firefox_firefox.desktop
+x-scheme-handler/http=firefox_firefox.desktop
+x-scheme-handler/https=firefox_firefox.desktop
+x-scheme-handler/about=firefox_firefox.desktop
+x-scheme-handler/unknown=firefox_firefox.desktop
+x-scheme-handler/postman=Postman.desktop
+
+[Added Associations]
+application/zip=org.gnome.FileRoller.desktop;
+image/png=gimp.desktop;
+image/jpeg=gimp.desktop;
+application/pdf=google-chrome.desktop;gimp.desktop;
+text/plain=org.gnome.gedit.desktop;
+application/octet-stream=code.desktop;

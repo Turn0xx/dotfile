@@ -1,0 +1,56 @@
+import { ClientRepository } from "../application/client.repository";
+import { Client } from "../domain/client";
+import { DuplicateFieldError } from "../errors/duplicateField.error";
+
+export class InMemoryClientRepository implements ClientRepository {
+
+  private uniqueFields = ['email', 'phoneNumber'];
+
+  private clients: Map<number, Client> = new Map<number , Client>();
+
+  constructor() {}
+
+  private checkUniqueFields(client: Client): void {
+    this.uniqueFields.forEach((field) => {
+      const isUnique = Array.from(this.clients.values()).every(
+        (c) => c[field] !== client[field]
+      );
+      if (!isUnique) {
+        throw new DuplicateFieldError(field);
+      }
+    });
+  }
+
+
+  insert(client: Client): Promise<void> {
+    this.checkUniqueFields(client);
+
+    this.clients.set(client.toJson().id, client);
+
+    return Promise.resolve();
+  }
+  save(client: Client): Promise<void> {
+
+    if (!this.clients.has(client.toJson().id)) {
+      throw new Error("Client not found");
+    }
+
+    this.clients.set(client.toJson().id, client);
+
+    return Promise.resolve();
+  }
+
+  findById(id: number): Promise<Client | undefined> {
+
+    return Promise.resolve(this.clients.get(id));
+
+  }
+  findByEmail(email: string): Promise<Client | undefined> {
+    
+    return Promise.resolve(Array.from(this.clients.values()).find((c) => c. === email));
+    
+  }
+
+  
+  
+}

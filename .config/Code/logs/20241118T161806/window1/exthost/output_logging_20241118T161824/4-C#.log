@@ -1,0 +1,11 @@
+Using dotnet configured on PATH
+Dotnet path: /usr/lib/dotnet/dotnet
+Activating C# + C# Dev Kit...
+waiting for named pipe information from server...
+[stdout] {"pipeName":"/tmp/d1ff7f48.sock"}
+received named pipe information from server
+attempting to connect client to server...
+client has connected to server
+[Info  - 4:18:30 PM] [Program] Language server initialized
+[Info  - 4:18:34 PM] [WorkspaceProjectFactoryService] Project /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend/backend.csproj loaded by C# Dev Kit
+[Info  - 4:22:45 PM] [WorkspaceProjectFactoryService] Project /home/mouad/Documents/Epitech/Trinity/DevOps/backend/Tests/Tests.csproj loaded by C# Dev Kit

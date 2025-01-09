@@ -1,0 +1,30 @@
+2024-11-18 11:23:16.898 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-11-18 11:23:16.898 [info] Auto Sync is enabled.
+2024-11-18 11:23:16.898 [info] Auto Sync: Suspended until auth token is available.
+2024-11-18 11:23:18.012 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/extensions
+2024-11-18 11:23:18.092 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/globalState
+2024-11-18 11:23:18.182 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/keybindings
+2024-11-18 11:23:18.220 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/profiles
+2024-11-18 11:23:18.369 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/settings
+2024-11-18 11:23:18.376 [info] Auto Sync: Triggered by Interval
+2024-11-18 11:23:18.376 [info] Sync started.
+2024-11-18 11:23:18.455 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/snippets
+2024-11-18 11:23:18.515 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/tasks
+2024-11-18 11:23:19.211 [info] Settings: Last sync resource does not exist locally.
+2024-11-18 11:23:20.693 [info] Settings: No changes found during synchronizing settings.
+2024-11-18 11:23:20.800 [info] Keybindings: Last sync resource does not exist locally.
+2024-11-18 11:23:21.630 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-11-18 11:23:21.633 [info] Snippets: Last sync resource does not exist locally.
+2024-11-18 11:23:21.676 [info] Snippets: No changes found during synchronizing snippets.
+2024-11-18 11:23:21.678 [info] Tasks: Last sync resource does not exist locally.
+2024-11-18 11:23:21.688 [info] Extensions: Last sync resource does not exist locally.
+2024-11-18 11:23:21.725 [info] Tasks: No changes found during synchronizing tasks.
+2024-11-18 11:23:21.729 [info] GlobalState: Last sync resource does not exist locally.
+2024-11-18 11:23:22.326 [info] GlobalState: Updated remote ui state. Updated: workbench.activity.pinnedViewlets2.
+2024-11-18 11:23:22.330 [info] GlobalState: Updated last synchronized ui state
+2024-11-18 11:23:22.530 [info] Extensions: No changes found during synchronizing extensions.
+2024-11-18 11:23:22.562 [info] Profiles: Last sync resource does not exist locally.
+2024-11-18 11:23:22.688 [info] Profiles: No changes found during synchronizing profiles.
+2024-11-18 11:23:22.713 [info] Sync done. Took 4337ms
+2024-11-18 11:24:06.923 [info] Auto Sync: Triggered by Activity
+2024-11-18 11:24:06.924 [info] Sync started.

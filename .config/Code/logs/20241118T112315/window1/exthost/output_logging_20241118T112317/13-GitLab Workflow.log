@@ -1,0 +1,17 @@
+2024-11-18T11:23:21:425 [warning]: There is no GitLab account available with access to suggestions
+2024-11-18T11:23:21:443 [info]: Extracted urls: []
+2024-11-18T11:23:21:443 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18T11:23:21:447 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18T11:23:21:447 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18T11:23:21:447 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18T11:23:21:447 [info]: Found 0 projects for urls: []
+2024-11-18T11:23:21:448 [warning]: There is no GitLab account available with access to suggestions
+2024-11-18T11:23:21:536 [info]: Extracted urls: [
+      "https://t-dev.epitest.eu/STG_9/T-DEV-701-Devops.git"
+    ]
+2024-11-18T11:23:21:537 [info]: Found 0 projects for urls: [
+      "https://t-dev.epitest.eu/STG_9/T-DEV-701-Devops.git"
+    ]
+2024-11-18T11:23:21:538 [warning]: There is no GitLab account available with access to suggestions
+2024-11-18T11:24:06:583 [info]: Extracted urls: []
+2024-11-18T11:24:07:648 [info]: Found 0 projects for urls: []

@@ -1,0 +1,10 @@
+{
+    "web": {
+        "client_id": "171925327981-ls4psb84fvr2ed42t9rtc6ia38l5382a.apps.googleusercontent.com",
+        "project_id": "pocketticket",
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret": "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"
+    }
+}

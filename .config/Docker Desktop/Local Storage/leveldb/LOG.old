@@ -1,0 +1,16 @@
+2024/10/11-10:07:09.460 2c3a Reusing MANIFEST /home/mouad/.config/Docker Desktop/Local Storage/leveldb/MANIFEST-000001
+2024/10/11-10:07:09.461 2c3a Recovering log #154
+2024/10/11-10:07:09.461 2c3a (ignoring error) /home/mouad/.config/Docker Desktop/Local Storage/leveldb/000154.log: dropping 3774 bytes; Corruption: checksum mismatch
+2024/10/11-10:07:09.461 2c3a Reusing old log /home/mouad/.config/Docker Desktop/Local Storage/leveldb/000154.log 
+2024/10/11-22:32:39.090 2c3a Level-0 table #157: started
+2024/10/11-22:32:39.098 2c3a Level-0 table #157: 12336 bytes OK
+2024/10/11-22:32:39.101 2c3a Delete type=0 #154
+2024/10/11-22:32:39.105 2ce47 Compacting 4@0 + 1@1 files
+2024/10/11-22:32:39.110 2ce47 Generated table #158@0: 16 keys, 1365 bytes
+2024/10/11-22:32:39.113 2ce47 Compacted 4@0 + 1@1 files => 1365 bytes
+2024/10/11-22:32:39.120 2ce47 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/11-22:32:39.121 2ce47 Delete type=2 #153
+2024/10/11-22:32:39.121 2ce47 Delete type=2 #151
+2024/10/11-22:32:39.121 2ce47 Delete type=2 #157
+2024/10/11-22:32:39.121 2ce47 Delete type=2 #148
+2024/10/11-22:32:39.121 2ce47 Delete type=2 #145

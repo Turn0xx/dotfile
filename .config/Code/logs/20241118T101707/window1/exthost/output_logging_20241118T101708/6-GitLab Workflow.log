@@ -1,0 +1,22 @@
+2024-11-18T10:17:22:487 [warning]: There is no GitLab account available with access to suggestions
+2024-11-18T10:17:22:496 [warning]: Failed to send "textDocument.didOpen" event for "file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/lib/time_manager/timetracking/domain/working-time.ex"
+    cannot open file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/lib/time_manager/timetracking/domain/working-time.ex. Detail: Unable to read file '/home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/lib/time_manager/timetracking/domain/working-time.ex' (Error: Unable to resolve nonexistent file '/home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/lib/time_manager/timetracking/domain/working-time.ex')
+    CodeExpectedError: cannot open file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/lib/time_manager/timetracking/domain/working-time.ex. Detail: Unable to read file '/home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/lib/time_manager/timetracking/domain/working-time.ex' (Error: Unable to resolve nonexistent file '/home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/lib/time_manager/timetracking/domain/working-time.ex')
+        at n.$tryOpenDocument (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2195:62578)
+2024-11-18T10:17:22:502 [info]: Extracted urls: []
+2024-11-18T10:17:22:502 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-11-18T10:17:22:506 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-11-18T10:17:22:506 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-11-18T10:17:22:506 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-11-18T10:17:22:506 [info]: Found 0 projects for urls: []
+2024-11-18T10:17:22:507 [warning]: There is no GitLab account available with access to suggestions
+2024-11-18T10:17:22:522 [warning]: GitExtensionWrapper is missing repository for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-11-18T10:17:22:556 [info]: Extracted urls: [
+      "git@github.com:EpitechMscProPromo2026/T-POO-700-STG_8.git"
+    ]
+2024-11-18T10:17:22:568 [info]: Found 0 projects for urls: [
+      "git@github.com:EpitechMscProPromo2026/T-POO-700-STG_8.git"
+    ]
+2024-11-18T10:17:22:569 [warning]: There is no GitLab account available with access to suggestions
+2024-11-18T10:17:43:237 [info]: Extracted urls: []
+2024-11-18T10:17:44:118 [info]: Found 0 projects for urls: []

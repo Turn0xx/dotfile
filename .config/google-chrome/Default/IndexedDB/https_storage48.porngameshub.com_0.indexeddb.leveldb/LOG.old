@@ -1,0 +1,6 @@
+2024/11/21-18:39:52.588 7d3b Creating DB /home/mouad/.config/google-chrome/Default/IndexedDB/https_storage48.porngameshub.com_0.indexeddb.leveldb since it was missing.
+2024/11/21-18:39:52.592 7d3b Reusing MANIFEST /home/mouad/.config/google-chrome/Default/IndexedDB/https_storage48.porngameshub.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/21-18:40:09.727 7d46 Level-0 table #5: started
+2024/11/21-18:40:09.733 7d46 Level-0 table #5: 1309 bytes OK
+2024/11/21-18:40:09.736 7d46 Delete type=0 #3
+2024/11/21-18:40:09.737 7d46 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

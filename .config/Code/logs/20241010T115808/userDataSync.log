@@ -1,0 +1,66 @@
+2024-10-10 11:58:09.824 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-10-10 11:58:09.824 [info] Auto Sync is enabled.
+2024-10-10 11:58:09.824 [info] Auto Sync: Suspended until auth token is available.
+2024-10-10 11:58:11.042 [info] Auto Sync: Triggered by Interval
+2024-10-10 11:58:11.042 [info] Sync started.
+2024-10-10 11:58:11.398 [info] Settings: Last sync resource does not exist locally.
+2024-10-10 11:58:11.599 [info] Settings: No changes found during synchronizing settings.
+2024-10-10 11:58:11.624 [info] Keybindings: Last sync resource does not exist locally.
+2024-10-10 11:58:11.762 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-10-10 11:58:11.782 [info] Snippets: Last sync resource does not exist locally.
+2024-10-10 11:58:11.940 [info] Snippets: No changes found during synchronizing snippets.
+2024-10-10 11:58:11.940 [info] Tasks: Last sync resource does not exist locally.
+2024-10-10 11:58:12.142 [info] Tasks: No changes found during synchronizing tasks.
+2024-10-10 11:58:12.144 [info] GlobalState: Last sync resource does not exist locally.
+2024-10-10 11:58:12.772 [info] GlobalState: Updated remote ui state. Updated: cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,javascript.1.lastSessionDate,javascript.1.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount.
+2024-10-10 11:58:12.811 [info] GlobalState: Updated last synchronized ui state
+2024-10-10 11:58:12.825 [info] Extensions: Last sync resource does not exist locally.
+2024-10-10 11:58:13.072 [info] Extensions: No changes found during synchronizing extensions.
+2024-10-10 11:58:13.075 [info] Profiles: Last sync resource does not exist locally.
+2024-10-10 11:58:13.151 [info] Profiles: No changes found during synchronizing profiles.
+2024-10-10 11:58:13.153 [info] Sync done. Took 2111ms
+2024-10-10 11:59:28.203 [info] Auto Sync: Triggered by Activity
+2024-10-10 11:59:28.203 [info] Sync started.
+2024-10-10 11:59:28.433 [info] Settings: No changes found during synchronizing settings.
+2024-10-10 11:59:28.437 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-10-10 11:59:28.440 [info] Snippets: No changes found during synchronizing snippets.
+2024-10-10 11:59:28.443 [info] Tasks: No changes found during synchronizing tasks.
+2024-10-10 11:59:28.447 [info] GlobalState: No changes found during synchronizing ui state.
+2024-10-10 11:59:28.548 [info] Extensions: No changes found during synchronizing extensions.
+2024-10-10 11:59:28.550 [info] Profiles: No changes found during synchronizing profiles.
+2024-10-10 11:59:28.551 [info] Sync done. Took 348ms
+2024-10-10 12:01:24.744 [info] Auto Sync: Triggered by Activity
+2024-10-10 12:01:24.744 [info] Sync started.
+2024-10-10 12:01:24.792 [info] Settings: No changes found during synchronizing settings.
+2024-10-10 12:01:24.796 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-10-10 12:01:24.800 [info] Snippets: No changes found during synchronizing snippets.
+2024-10-10 12:01:24.802 [info] Tasks: No changes found during synchronizing tasks.
+2024-10-10 12:01:24.807 [info] GlobalState: No changes found during synchronizing ui state.
+2024-10-10 12:01:24.902 [info] Extensions: No changes found during synchronizing extensions.
+2024-10-10 12:01:24.904 [info] Profiles: No changes found during synchronizing profiles.
+2024-10-10 12:01:24.905 [info] Sync done. Took 162ms
+2024-10-10 12:02:06.086 [info] Auto Sync: Triggered by Activity
+2024-10-10 12:02:06.086 [info] Sync started.
+2024-10-10 12:02:06.136 [info] Settings: No changes found during synchronizing settings.
+2024-10-10 12:02:06.139 [info] Keybindings: No changes found during synchronizing keybindings.
+2024-10-10 12:02:06.142 [info] Snippets: No changes found during synchronizing snippets.
+2024-10-10 12:02:06.144 [info] Tasks: No changes found during synchronizing tasks.
+2024-10-10 12:02:06.148 [info] GlobalState: No changes found during synchronizing ui state.
+2024-10-10 12:02:06.233 [info] Extensions: No changes found during synchronizing extensions.
+2024-10-10 12:02:06.235 [info] Profiles: No changes found during synchronizing profiles.
+2024-10-10 12:02:06.236 [info] Sync done. Took 149ms
+2024-10-10 13:28:03.829 [info] Auto Sync: Triggered by Activity
+2024-10-10 13:28:03.830 [info] Sync started.
+2024-10-10 13:28:03.844 [info] Request failed https://vscode-sync.trafficmanager.net/v1/manifest
+2024-10-10 13:28:03.844 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at v.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:127776)
+    at async v.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:125479)
+    at async o.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:101316)
+    at async r.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:91192)
+    at async r.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:90832)
+2024-10-10 13:28:03.844 [error] RequestFailed (UserDataSyncError) syncResource:unknown operationId:unknown: Connection refused for the request 'https://vscode-sync.trafficmanager.net/v1/manifest'.
+    at v.D (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:127776)
+    at async v.manifest (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:125479)
+    at async o.createSyncTask (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:101316)
+    at async r.I (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:91192)
+    at async r.H (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:113:90832)

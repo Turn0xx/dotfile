@@ -1,0 +1,28 @@
+2025-01-08 17:03:50.610 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2025-01-08 17:03:50.610 [info] Auto Sync is enabled.
+2025-01-08 17:03:50.610 [info] Auto Sync: Suspended until auth token is available.
+2025-01-08 17:03:51.244 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/extensions
+2025-01-08 17:03:51.266 [info] Auto Sync: Triggered by Interval
+2025-01-08 17:03:51.267 [info] Sync started.
+2025-01-08 17:03:51.317 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/globalState
+2025-01-08 17:03:51.338 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/keybindings
+2025-01-08 17:03:51.380 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/profiles
+2025-01-08 17:03:51.413 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/settings
+2025-01-08 17:03:51.443 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/snippets
+2025-01-08 17:03:51.444 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/tasks
+2025-01-08 17:03:52.445 [info] Settings: Last sync resource does not exist locally.
+2025-01-08 17:03:52.627 [info] Settings: No changes found during synchronizing settings.
+2025-01-08 17:03:52.629 [info] Keybindings: Last sync resource does not exist locally.
+2025-01-08 17:03:52.731 [info] Keybindings: No changes found during synchronizing keybindings.
+2025-01-08 17:03:52.732 [info] Snippets: Last sync resource does not exist locally.
+2025-01-08 17:03:53.096 [info] Snippets: No changes found during synchronizing snippets.
+2025-01-08 17:03:53.097 [info] Tasks: Last sync resource does not exist locally.
+2025-01-08 17:03:53.162 [info] Tasks: No changes found during synchronizing tasks.
+2025-01-08 17:03:53.163 [info] GlobalState: Last sync resource does not exist locally.
+2025-01-08 17:03:54.415 [info] GlobalState: Updated remote ui state. Updated: cpp.1.lastSessionDate,cpp.1.sessionCount,java.2.lastSessionDate,java.2.sessionCount,javascript.1.lastSessionDate,javascript.1.sessionCount,csharp.1.lastSessionDate,csharp.1.sessionCount.
+2025-01-08 17:03:54.419 [info] GlobalState: Updated last synchronized ui state
+2025-01-08 17:03:54.420 [info] Extensions: Last sync resource does not exist locally.
+2025-01-08 17:03:54.611 [info] Extensions: No changes found during synchronizing extensions.
+2025-01-08 17:03:54.615 [info] Profiles: Last sync resource does not exist locally.
+2025-01-08 17:03:54.656 [info] Profiles: No changes found during synchronizing profiles.
+2025-01-08 17:03:54.657 [info] Sync done. Took 3391ms

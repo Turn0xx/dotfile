@@ -1,0 +1,12 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend" value="true" />
+        <entry key="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/.idea/.idea.backend" value="true" />
+        <entry key="$USER_HOME$/Documents/Personal/ModularMonolithDDD" value="true" />
+        <entry key="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

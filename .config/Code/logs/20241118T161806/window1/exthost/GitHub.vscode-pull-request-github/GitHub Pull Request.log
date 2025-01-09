@@ -1,0 +1,34 @@
+2024-11-18 16:18:12.987 [warning] /home/mouad/.ssh/config: ENOENT: no such file or directory, open '/home/mouad/.ssh/config'
+2024-11-18 16:18:12.987 [info] Activation> Extension version: 0.88.1
+2024-11-18 16:18:13.634 [info] Looking for git repository
+2024-11-18 16:18:13.634 [info] Found 0 repositories during activation
+2024-11-18 16:18:13.634 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-18 16:18:13.635 [info] Registering git provider
+2024-11-18 16:18:29.504 [warning] /home/mouad/.ssh/config: ENOENT: no such file or directory, open '/home/mouad/.ssh/config'
+2024-11-18 16:18:29.504 [info] Activation> Extension version: 0.88.1
+2024-11-18 16:18:31.909 [info] Looking for git repository
+2024-11-18 16:18:31.909 [info] Found 0 repositories during activation
+2024-11-18 16:18:31.909 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-18 16:18:31.914 [info] Registering git provider
+2024-11-18 16:18:31.915 [info] Review+0> Validate state in progress
+2024-11-18 16:18:31.915 [info] Review+0> Validating state...
+2024-11-18 16:18:32.503 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:18:32.504 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:18:32.507 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:18:32.508 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:18:32.509 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-11-18 16:18:32.509 [info] No GitHub remotes found for folder /home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18 16:18:32.514 [info] Trying to use globalState for assignableUsers.
+2024-11-18 16:18:32.554 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 16:18:32.557 [info] Using globalState assignableUsers for 0.
+2024-11-18 16:18:32.561 [info] Review+0> No matching pull request metadata found locally for current branch branch-test-2
+2024-11-18 16:18:32.562 [info] Review+0> No matching pull request metadata found on GitHub for current branch branch-test-2
+2024-11-18 16:18:33.119 [info] Repo state for file:///home/mouad/Documents/Epitech/Trinity/DevOps changed.
+2024-11-18 16:18:33.119 [info] Repo file:///home/mouad/Documents/Epitech/Trinity/DevOps has already been setup.
+2024-11-18 16:25:12.544 [info] Review+0> Validate state in progress
+2024-11-18 16:25:12.545 [info] Review+0> Validating state...
+2024-11-18 16:25:12.545 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-11-18 16:25:12.545 [info] No GitHub remotes found for folder /home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18 16:25:12.546 [info] Using in-memory cached assignable users.
+2024-11-18 16:25:12.572 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-18 16:25:12.573 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

@@ -1,0 +1,22 @@
+2023/10/16-22:43:53.017 32f5 Reusing MANIFEST /home/mouad/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/10/16-22:43:53.018 32f5 Recovering log #33
+2023/10/16-22:43:53.018 32f5 Reusing old log /home/mouad/.config/discord/Local Storage/leveldb/000033.log 
+2023/10/16-22:49:11.954 3653 Level-0 table #37: started
+2023/10/16-22:49:11.982 3653 Level-0 table #37: 2049028 bytes OK
+2023/10/16-22:49:11.986 3653 Delete type=0 #33
+2023/10/16-22:49:11.989 3653 Compacting 4@0 + 1@1 files
+2023/10/16-22:49:12.062 3653 Generated table #38@0: 14 keys, 3975196 bytes
+2023/10/16-22:49:12.068 3653 Generated table #39@0: 35 keys, 16815 bytes
+2023/10/16-22:49:12.068 3653 Compacted 4@0 + 1@1 files => 3992011 bytes
+2023/10/16-22:49:12.070 3653 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/10/16-22:49:12.070 3653 Delete type=2 #37
+2023/10/16-22:49:12.070 3653 Delete type=2 #34
+2023/10/16-22:49:12.070 3653 Delete type=2 #27
+2023/10/16-22:49:12.070 3653 Delete type=2 #29
+2023/10/16-22:49:12.070 3653 Delete type=2 #31
+2023/10/16-22:54:39.961 37f4 Level-0 table #41: started
+2023/10/16-22:54:39.997 37f4 Level-0 table #41: 2055374 bytes OK
+2023/10/16-22:54:39.999 37f4 Delete type=0 #36
+2023/10/16-23:14:03.131 37f4 Level-0 table #43: started
+2023/10/16-23:14:03.162 37f4 Level-0 table #43: 25786 bytes OK
+2023/10/16-23:14:03.164 37f4 Delete type=0 #40

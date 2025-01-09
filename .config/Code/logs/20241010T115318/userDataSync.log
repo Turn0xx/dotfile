@@ -1,0 +1,10 @@
+2024-10-10 11:53:20.084 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2024-10-10 11:53:20.084 [info] Auto Sync is enabled.
+2024-10-10 11:53:20.084 [info] Auto Sync: Suspended until auth token is available.
+2024-10-10 11:53:20.548 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/extensions
+2024-10-10 11:53:20.559 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/globalState
+2024-10-10 11:53:20.598 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/keybindings
+2024-10-10 11:53:20.648 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/profiles
+2024-10-10 11:53:20.655 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/settings
+2024-10-10 11:53:20.666 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/snippets
+2024-10-10 11:53:20.685 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/tasks

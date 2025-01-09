@@ -1,0 +1,28 @@
+2024-11-18 16:18:12.953 [info] [FetcherService] Using Helix fetcher
+2024-11-18 16:18:12.953 [info] [gitExtensionService] Initializing Git extension service.
+2024-11-18 16:18:12.953 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-11-18 16:18:12.953 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-11-18 16:18:12.953 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-11-18 16:18:13.506 [info] [auth] Logged in as Turn0xx
+2024-11-18 16:18:14.030 [info] [chat] copilot token chat_enabled: true
+2024-11-18 16:18:14.030 [info] [chat] Registration of interactive providers failed:,Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-11-18 16:18:14.031 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-11-18 16:18:14.047 [info] [auth] Got Copilot token for Turn0xx
+2024-11-18 16:18:14.048 [info] [githubTitleAndDescriptionProvider] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-11-18 16:18:14.048 [info] [githubTitleAndDescriptionProvider] Successfully registered GitHub PR title and description provider.
+2024-11-18 16:18:29.505 [info] [FetcherService] Using Helix fetcher
+2024-11-18 16:18:29.505 [info] [gitExtensionService] Initializing Git extension service.
+2024-11-18 16:18:29.505 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-11-18 16:18:29.505 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-11-18 16:18:29.505 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-11-18 16:18:31.155 [info] [auth] Logged in as Turn0xx
+2024-11-18 16:18:32.184 [info] [chat] copilot token chat_enabled: true
+2024-11-18 16:18:32.184 [info] [chat] Registration of interactive providers failed:,Error: Extension 'GitHub.copilot-chat' CANNOT use API proposal: aiTextSearchProvider.
+Its package.json#enabledApiProposals-property declares: interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver but NOT aiTextSearchProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api GitHub.copilot-chat
+2024-11-18 16:18:32.184 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2024-11-18 16:18:32.207 [info] [auth] Got Copilot token for Turn0xx
+2024-11-18 16:18:32.208 [info] [githubTitleAndDescriptionProvider] Successfully activated the GitHub.vscode-pull-request-github extension.
+2024-11-18 16:18:32.209 [info] [githubTitleAndDescriptionProvider] Successfully registered GitHub PR title and description provider.

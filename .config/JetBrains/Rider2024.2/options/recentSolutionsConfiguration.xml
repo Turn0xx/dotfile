@@ -1,0 +1,29 @@
+<application>
+  <component name="SolutionConfigurationStore">
+    <option name="configurations">
+      <map>
+        <entry key="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend.sln">
+          <value>
+            <ConfigurationInfo>
+              <option name="activeConfiguration" value="Debug" />
+              <option name="activePlatform" value="Any CPU" />
+            </ConfigurationInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Personal/ModularMonolithDDD">
+          <value>
+            <ConfigurationInfo />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/CompanyName.MyMeetings.sln">
+          <value>
+            <ConfigurationInfo>
+              <option name="activeConfiguration" value="Debug" />
+              <option name="activePlatform" value="Any CPU" />
+            </ConfigurationInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

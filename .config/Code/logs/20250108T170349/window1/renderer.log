@@ -1,0 +1,29 @@
+2025-01-08 17:03:49.999 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/mouad/.cache/.fr-sLK3s1/20250108001958_reboot_acad_2461.pgsql","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2025-01-08 17:03:50.440 [error] [/home/mouad/.vscode/extensions/franneck94.c-cpp-runner-9.4.9]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.90.0.
+2025-01-08 17:03:50.442 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2025-01-08 17:03:50.443 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2025-01-08 17:03:50.446 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.24.2]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2025-01-08 17:03:50.446 [error] [/home/mouad/.vscode/extensions/michaelcurrin.auto-commit-msg-0.27.2]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2025-01-08 17:03:50.455 [error] [/home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.25.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2025-01-08 17:03:50.455 [error] [/home/mouad/.vscode/extensions/github.copilot-1.252.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.96.0.
+2025-01-08 17:03:50.490 [error] [/home/mouad/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2025-01-08 17:03:50.492 [error] [/home/mouad/.vscode/extensions/github.vscode-pull-request-github-0.98.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2025-01-08 17:03:50.493 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2025-01-08 17:03:50.495 [error] [/home/mouad/.vscode/extensions/ms-azuretools.vscode-docker-1.29.3]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.92.0.
+2025-01-08 17:03:50.496 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.21.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.94.0.
+2025-01-08 17:03:50.501 [error] [/home/mouad/.vscode/extensions/github.vscode-pull-request-github-0.100.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.95.0.
+2025-01-08 17:03:50.502 [error] [/home/mouad/.vscode/extensions/ms-vscode-remote.remote-ssh-0.115.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2025-01-08 17:03:50.505 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.22.2]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.95.0-20241022.
+2025-01-08 17:03:50.506 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.22.3]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.95.0-20241022.
+2025-01-08 17:03:50.513 [error] [/home/mouad/.vscode/extensions/ms-dotnettools.csdevkit-1.13.9-linux-x64]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2025-01-08 17:03:50.520 [error] [/home/mouad/.vscode/extensions/ms-dotnettools.csharp-2.55.29-linux-x64]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2025-01-08 17:03:50.520 [error] [/home/mouad/.vscode/extensions/ms-vscode-remote.remote-ssh-0.116.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.96.0.
+2025-01-08 17:03:50.522 [error] [/home/mouad/.vscode/extensions/github.vscode-pull-request-github-0.102.0]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.96.0.
+2025-01-08 17:03:50.523 [error] [/home/mouad/.vscode/extensions/ms-dotnettools.csdevkit-1.14.14-linux-x64]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.93.0.
+2025-01-08 17:03:50.523 [error] [/home/mouad/.vscode/extensions/github.copilot-chat-0.23.1]: Extension is not compatible with Code 1.89.0. Extension requires: ^1.96.0-20241122.
+2025-01-08 17:03:50.590 [error] Extension 'github.copilot-chat' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): extensionsAny, newSymbolNamesProvider, interactive, chatProvider, codeActionAI, findTextInFiles, findFiles2, textSearchProvider, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, mappedEditsProvider, aiRelatedInformation, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, contribSourceControlInputBoxMenu, authLearnMore, testObserver, aiTextSearchProvider
+product.json (WINS): interactive, terminalDataWriteEvent, terminalExecuteCommandEvent, terminalSelection, terminalQuickFixProvider, chatParticipant, chatParticipantAdditions, defaultChatParticipant, chatVariableResolver, chatProvider, mappedEditsProvider, aiRelatedInformation, codeActionAI, findTextInFiles, textSearchProvider, contribSourceControlInputBoxMenu, newSymbolNamesProvider, findFiles2, extensionsAny, authLearnMore, testObserver
+2025-01-08 17:03:50.591 [error] Extension 'ms-vscode.cpptools' wants API proposal 'lmTools' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-08 17:03:50.792 [info] Started local extension host with pid 41162.
+2025-01-08 17:03:53.259 [info] [perf] Render performance baseline is 159ms

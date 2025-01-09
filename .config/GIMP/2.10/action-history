@@ -1,0 +1,22 @@
+# GIMP action-history
+
+(history-item "edit-paste" 5)
+(history-item "edit-copy" 4)
+(history-item "edit-clear" 3)
+(history-item "file-quit" 3)
+(history-item "file-open" 0)
+(history-item "file-save" 0)
+(history-item "image-new" 0)
+(history-item "edit-cut" 1)
+(history-item "tools-by-color-select-short" 0)
+(history-item "tools-pencil" 0)
+(history-item "layers-edit" 0)
+(history-item "view-scroll-page-right" 0)
+(history-item "view-scroll-page-left" 0)
+(history-item "view-scroll-left-border" 0)
+(history-item "view-scroll-right-border" 0)
+(history-item "tools-color-picker" 0)
+(history-item "tools-move" 0)
+(history-item "tools-free-select" 1)
+
+# end of action-history

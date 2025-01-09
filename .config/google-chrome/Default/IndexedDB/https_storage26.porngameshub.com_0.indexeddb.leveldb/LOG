@@ -1,0 +1,22 @@
+2024/11/21-18:03:29.409 7d3b Reusing MANIFEST /home/mouad/.config/google-chrome/Default/IndexedDB/https_storage26.porngameshub.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/21-18:03:29.410 7d3b Recovering log #1523
+2024/11/21-18:03:29.412 7d3b Reusing old log /home/mouad/.config/google-chrome/Default/IndexedDB/https_storage26.porngameshub.com_0.indexeddb.leveldb/001523.log 
+2024/11/21-18:40:09.727 7d48 Level-0 table #1527: started
+2024/11/21-18:40:09.734 7d48 Level-0 table #1527: 48947 bytes OK
+2024/11/21-18:40:09.738 7d48 Delete type=0 #1523
+2024/11/21-18:40:09.739 7d3b Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x02\x000\xf5\xb3\xa24yB\x00\x01:\x00/\x00h\x00o\x00m\x00e\x00/\x00w\x00e\x00b\x00_\x00u\x00s\x00e\x00r\x00/\x00.\x00r\x00e\x00n\x00p\x00y\x00/\x00R\x00e\x00d\x00S\x00t\x00r\x00i\x00n\x00g\x00-\x001\x005\x007\x004\x006\x002\x001\x008\x003\x000\x00/\x00s\x00y\x00n\x00c\x00/\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00e\x00n\x00t' @ 14163172 : 1
+2024/11/21-18:40:09.739 7d3b Compacting 1@0 + 1@1 files
+2024/11/21-18:40:09.752 7d3b Generated table #1528@0: 10392 keys, 90682 bytes
+2024/11/21-18:40:09.752 7d3b Compacted 1@0 + 1@1 files => 90682 bytes
+2024/11/21-18:40:09.754 7d3b compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/11/21-18:40:09.754 7d3b Delete type=2 #1524
+2024/11/21-18:40:09.754 7d3b Delete type=2 #1527
+2024/11/21-18:40:09.755 7d3b Manual compaction at level-0 from '\x00\x01\x01\x1f\x02\x000\xf5\xb3\xa24yB\x00\x01:\x00/\x00h\x00o\x00m\x00e\x00/\x00w\x00e\x00b\x00_\x00u\x00s\x00e\x00r\x00/\x00.\x00r\x00e\x00n\x00p\x00y\x00/\x00R\x00e\x00d\x00S\x00t\x00r\x00i\x00n\x00g\x00-\x001\x005\x007\x004\x006\x002\x001\x008\x003\x000\x00/\x00s\x00y\x00n\x00c\x00/\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00e\x00n\x00t' @ 14163172 : 1 .. (end); will stop at (end)
+2024/11/21-18:40:09.755 7d3b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x02\x000\xf5\xb3\xa24yB\x00\x01:\x00/\x00h\x00o\x00m\x00e\x00/\x00w\x00e\x00b\x00_\x00u\x00s\x00e\x00r\x00/\x00.\x00r\x00e\x00n\x00p\x00y\x00/\x00R\x00e\x00d\x00S\x00t\x00r\x00i\x00n\x00g\x00-\x001\x005\x007\x004\x006\x002\x001\x008\x003\x000\x00/\x00s\x00y\x00n\x00c\x00/\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00e\x00n\x00t' @ 14163172 : 1
+2024/11/21-18:40:09.755 7d3b Compacting 1@1 + 1@2 files
+2024/11/21-18:40:09.759 7d3b Generated table #1529@1: 216 keys, 7458 bytes
+2024/11/21-18:40:09.759 7d3b Compacted 1@1 + 1@2 files => 7458 bytes
+2024/11/21-18:40:09.760 7d3b compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/11/21-18:40:09.761 7d3b Delete type=2 #1528
+2024/11/21-18:40:09.761 7d3b Delete type=2 #1522
+2024/11/21-18:40:09.761 7d3b Manual compaction at level-1 from '\x00\x01\x01\x1f\x02\x000\xf5\xb3\xa24yB\x00\x01:\x00/\x00h\x00o\x00m\x00e\x00/\x00w\x00e\x00b\x00_\x00u\x00s\x00e\x00r\x00/\x00.\x00r\x00e\x00n\x00p\x00y\x00/\x00R\x00e\x00d\x00S\x00t\x00r\x00i\x00n\x00g\x00-\x001\x005\x007\x004\x006\x002\x001\x008\x003\x000\x00/\x00s\x00y\x00n\x00c\x00/\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00e\x00n\x00t' @ 14163172 : 1 .. (end); will stop at (end)

@@ -1,0 +1,25 @@
+Using dotnet configured on PATH
+Dotnet path: /usr/lib/dotnet/dotnet
+Activating C# + C# Dev Kit...
+waiting for named pipe information from server...
+[stdout] {"pipeName":"/tmp/3a2951eb.sock"}
+received named pipe information from server
+attempting to connect client to server...
+client has connected to server
+[Info  - 1:49:02 PM] [Program] Language server initialized
+[Info  - 1:49:07 PM] [WorkspaceProjectFactoryService] Project /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend/backend.csproj loaded by C# Dev Kit
+[Error - 1:49:08 PM] [LanguageServerHost] StreamJsonRpc.LocalRpcException: Resolve version '2024-11-18T12:49:03.5258888Z-10006-0' does not match current version '2024-11-18T12:49:08.7129726Z-10027-0'
+   at Microsoft.CodeAnalysis.LanguageServer.Handler.CodeLens.CodeLensResolveHandler.HandleRequestAsync(CodeLens request, RequestContext context, CancellationToken cancellationToken) in /_/src/LanguageServer/Protocol/Handler/CodeLens/CodeLensResolveHandler.cs:line 55
+   at Microsoft.CommonLanguageServerProtocol.Framework.QueueItem`1.StartRequestAsync[TRequest,TResponse](TRequest request, TRequestContext context, IMethodHandler handler, String language, CancellationToken cancellationToken) in /_/src/LanguageServer/Microsoft.CommonLanguageServerProtocol.Framework/QueueItem.cs:line 187
+[Error - 1:49:08 PM] [LanguageServerHost] StreamJsonRpc.LocalRpcException: Resolve version '2024-11-18T12:49:03.5258888Z-10006-0' does not match current version '2024-11-18T12:49:08.7129726Z-10027-0'
+   at Microsoft.CodeAnalysis.LanguageServer.Handler.CodeLens.CodeLensResolveHandler.HandleRequestAsync(CodeLens request, RequestContext context, CancellationToken cancellationToken) in /_/src/LanguageServer/Protocol/Handler/CodeLens/CodeLensResolveHandler.cs:line 55
+   at Microsoft.CommonLanguageServerProtocol.Framework.QueueItem`1.StartRequestAsync[TRequest,TResponse](TRequest request, TRequestContext context, IMethodHandler handler, String language, CancellationToken cancellationToken) in /_/src/LanguageServer/Microsoft.CommonLanguageServerProtocol.Framework/QueueItem.cs:line 187
+[Error - 1:49:08 PM] [LanguageServerHost] StreamJsonRpc.LocalRpcException: Resolve version '2024-11-18T12:49:03.5258888Z-10006-0' does not match current version '2024-11-18T12:49:08.7129726Z-10027-0'
+   at Microsoft.CodeAnalysis.LanguageServer.Handler.CodeLens.CodeLensResolveHandler.HandleRequestAsync(CodeLens request, RequestContext context, CancellationToken cancellationToken) in /_/src/LanguageServer/Protocol/Handler/CodeLens/CodeLensResolveHandler.cs:line 55
+   at Microsoft.CommonLanguageServerProtocol.Framework.QueueItem`1.StartRequestAsync[TRequest,TResponse](TRequest request, TRequestContext context, IMethodHandler handler, String language, CancellationToken cancellationToken) in /_/src/LanguageServer/Microsoft.CommonLanguageServerProtocol.Framework/QueueItem.cs:line 187
+[Error - 1:49:08 PM] [LanguageServerHost] StreamJsonRpc.LocalRpcException: Resolve version '2024-11-18T12:49:03.5258888Z-10006-0' does not match current version '2024-11-18T12:49:08.7129726Z-10027-0'
+   at Microsoft.CodeAnalysis.LanguageServer.Handler.CodeLens.CodeLensResolveHandler.HandleRequestAsync(CodeLens request, RequestContext context, CancellationToken cancellationToken) in /_/src/LanguageServer/Protocol/Handler/CodeLens/CodeLensResolveHandler.cs:line 55
+   at Microsoft.CommonLanguageServerProtocol.Framework.QueueItem`1.StartRequestAsync[TRequest,TResponse](TRequest request, TRequestContext context, IMethodHandler handler, String language, CancellationToken cancellationToken) in /_/src/LanguageServer/Microsoft.CommonLanguageServerProtocol.Framework/QueueItem.cs:line 187
+[Error - 1:49:08 PM] [LanguageServerHost] StreamJsonRpc.LocalRpcException: Resolve version '2024-11-18T12:49:03.5258888Z-10006-0' does not match current version '2024-11-18T12:49:08.7129726Z-10027-0'
+   at Microsoft.CodeAnalysis.LanguageServer.Handler.CodeLens.CodeLensResolveHandler.HandleRequestAsync(CodeLens request, RequestContext context, CancellationToken cancellationToken) in /_/src/LanguageServer/Protocol/Handler/CodeLens/CodeLensResolveHandler.cs:line 55
+   at Microsoft.CommonLanguageServerProtocol.Framework.QueueItem`1.StartRequestAsync[TRequest,TResponse](TRequest request, TRequestContext context, IMethodHandler handler, String language, CancellationToken cancellationToken) in /_/src/LanguageServer/Microsoft.CommonLanguageServerProtocol.Framework/QueueItem.cs:line 187

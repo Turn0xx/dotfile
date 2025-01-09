@@ -1,0 +1,68 @@
+import {
+  EventBasicInformation,
+  EventBasicInformations,
+} from './basic-information';
+
+
+export type EventJson = {
+  id: number;
+  basicInformations: EventBasicInformations;
+  createdAt: Date;
+  isPublished: boolean;
+};
+
+export class Event {
+  private constructor(
+    private readonly id: number,
+    private basicInformations: EventBasicInformations,
+    private readonly createdAt: Date,
+    private isPublished: boolean,
+  ) {}
+
+    static create(
+        id: number,
+        basicInformations: EventBasicInformations,
+        createdAt: Date,
+        isPublished: boolean,
+    ): Event {
+        return new Event(id, basicInformations, createdAt, isPublished);
+    }
+
+    static fromJson(json: EventJson): Event {
+        return new Event(
+            json.id,
+            json.basicInformations,
+            json.createdAt,
+            json.isPublished,
+        );
+    }
+
+    static createFromBasicInformations(
+        id: number,
+        basicInformations: EventBasicInformation,
+        createdAt: Date,
+        isPublished: boolean,
+    ): Event {
+        return new Event(
+            id,
+            {
+                id,
+                basicInfo: basicInformations,
+                place: {
+                    isOnline: false,
+                },
+                date: {
+                    startDate: new Date(),
+                    endDate: new Date(),
+                    timeZone: 'UTC',
+                },
+                createdAt,
+            },
+            createdAt,
+            isPublished,
+        );
+    }   
+
+
+
+}

@@ -1,0 +1,13 @@
+Created Test Controller
+Using vstest from dotnet sdk in [/usr/lib/dotnet/sdk/8.0.110].
+Initialized Test Explorer Server [76941]
+Test Store Folder: /home/mouad/.config/Code/User/workspaceStorage/7e4d22593c0987a36c5f526b30a2b629/ms-dotnettools.csdevkit
+Test data store opened in 0.011 sec.
+Initialized project system provider.
+1 projects added, 0 changed, 0 removed.
+Scheduling discovery: /home/mouad/Documents/Epitech/Trinity/DevOps/backend/Tests/bin/Debug/net8.0/Tests.dll [1731942700153]
+========== Starting test discovery ==========
+NUnit Adapter 4.2.0.0: Test discovery starting
+NUnit Adapter 4.2.0.0: Test discovery complete
+========== Test discovery finished: 1 Tests found in 1.1 sec ==========
+1 tests discovered from /home/mouad/Documents/Epitech/Trinity/DevOps/backend/Tests/bin/Debug/net8.0/Tests.dll in 1094.6563 ms

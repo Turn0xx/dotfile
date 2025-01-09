@@ -1,0 +1,24 @@
+2024-11-18 10:18:38.315 [info] Getting sessions for all scopes...
+2024-11-18 10:18:38.315 [info] Got 0 sessions for all scopes...
+2024-11-18 10:18:38.315 [info] [VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:18:38.315 [info] [VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 0 sessions
+2024-11-18 10:18:38.315 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:18:38.315 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 0 sessions
+2024-11-18 10:18:38.343 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:18:38.343 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 0 sessions
+2024-11-18 10:18:48.483 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:18:48.483 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 0 sessions
+2024-11-18 10:18:48.485 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:18:48.485 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 0 sessions
+2024-11-18 10:18:50.944 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Creating session
+2024-11-18 10:19:03.227 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] '901cb4ca-b862-4029-9306-e5cd0f6d9f86/8abc95eb-65b1-4e71-9fdb-3849792ecd3f/b883fdd8-11ae-4ef6-a94c-048b93bc3dc6' session successfully created!
+2024-11-18 10:19:03.268 [info] [VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:19:03.269 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:19:03.269 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 1 sessions
+2024-11-18 10:19:03.765 [info] [VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 1 sessions
+2024-11-18 10:19:03.770 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:19:03.770 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 1 sessions
+2024-11-18 10:59:31.345 [info] [VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:59:31.347 [info] [VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 1 sessions
+2024-11-18 10:59:31.348 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Getting sessions
+2024-11-18 10:59:31.348 [info] [6f1cc985-85e8-487e-b0dd-aa633302a731/.default VSCODE_CLIENT_ID:04f0c124-f2bc-4f59-8241-bf6df9866bbd VSCODE_TENANT:common email offline_access openid profile] Got 1 sessions

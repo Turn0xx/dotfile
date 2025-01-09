@@ -1,0 +1,27 @@
+2024-11-18T16:18:32:662 [info]: fetch: Detected no proxy settings
+2024-11-18T16:18:32:813 [info]: GitLab Language Server is starting (v6.15.0)
+2024-11-18T16:18:32:925 [info]: [HttpServer]: server listening on http://127.0.0.1:39663/
+2024-11-18T16:18:32:928 [info]: [Webview] Webview runtime setup completed successfully
+2024-11-18T16:18:32:929 [info]: GitLab Language Server has started
+[Error - 4:18:32 PM] (node:77114) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 configChange listeners added to [EventEmitter]. Use emitter.setMaxListeners() to increase limit
+(Use `code --trace-warnings ...` to show where the warning was created)
+2024-11-18T16:18:32:937 [warning]: Failed to parse user-configured Code Suggestions languages. Code Suggestions will still work for the default languages.
+2024-11-18T16:18:32:938 [warning]: Invalid configuration for disabled Code Suggestions languages. All default languages remain enabled.
+2024-11-18T16:18:32:941 [info]: Snowplow Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:941 [info]: Instance Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:942 [warning]: Failed to parse user-configured Code Suggestions languages. Code Suggestions will still work for the default languages.
+2024-11-18T16:18:32:943 [warning]: Invalid configuration for disabled Code Suggestions languages. All default languages remain enabled.
+2024-11-18T16:18:32:944 [info]: Snowplow Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:945 [info]: Instance Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:945 [warning]: Failed to parse user-configured Code Suggestions languages. Code Suggestions will still work for the default languages.
+2024-11-18T16:18:32:945 [warning]: Invalid configuration for disabled Code Suggestions languages. All default languages remain enabled.
+2024-11-18T16:18:32:946 [info]: Snowplow Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:946 [info]: Instance Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:947 [warning]: Failed to parse user-configured Code Suggestions languages. Code Suggestions will still work for the default languages.
+2024-11-18T16:18:32:947 [warning]: Invalid configuration for disabled Code Suggestions languages. All default languages remain enabled.
+2024-11-18T16:18:32:947 [info]: Snowplow Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:948 [info]: Instance Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:948 [warning]: Failed to parse user-configured Code Suggestions languages. Code Suggestions will still work for the default languages.
+2024-11-18T16:18:32:949 [warning]: Invalid configuration for disabled Code Suggestions languages. All default languages remain enabled.
+2024-11-18T16:18:32:949 [info]: Snowplow Telemetry: GitLab Duo Code Suggestions telemetry is enabled.
+2024-11-18T16:18:32:950 [info]: Instance Telemetry: GitLab Duo Code Suggestions telemetry is enabled.

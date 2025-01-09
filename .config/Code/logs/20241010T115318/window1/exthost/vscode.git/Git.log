@@ -1,0 +1,26 @@
+2024-10-10 11:54:26.324 [info] Log level: Info
+2024-10-10 11:54:26.326 [info] Validating found git in: "git"
+2024-10-10 11:54:26.327 [info] Using git "2.34.1" from "git"
+2024-10-10 11:54:26.327 [info] > git rev-parse --show-toplevel [92ms]
+2024-10-10 11:54:26.327 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-10-10 11:54:26.327 [info] Open repository: /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10 11:54:26.327 [info] > git config --get commit.template [48ms]
+2024-10-10 11:54:26.327 [info] > git rev-parse --show-toplevel [50ms]
+2024-10-10 11:54:26.327 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-10 11:54:26.327 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-10 11:54:26.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [143ms]
+2024-10-10 11:54:26.327 [info] > git status -z -uall [421ms]
+2024-10-10 11:54:26.327 [info] > git config --get commit.template [7ms]
+2024-10-10 11:54:26.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2024-10-10 11:54:26.327 [info] > git merge-base refs/heads/main refs/remotes/origin/main [158ms]
+2024-10-10 11:54:26.327 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [23ms]
+2024-10-10 11:54:26.327 [info] > git status -z -uall [463ms]
+2024-10-10 11:54:26.327 [info] > git diff --name-status -z --diff-filter=ADMR b648171efa01dc340b142e8c3743995b239dbf48...refs/remotes/origin/main [441ms]
+2024-10-10 11:54:26.327 [info] > git fetch [7288ms]
+2024-10-10 11:54:26.327 [info] > git config --get commit.template [377ms]
+2024-10-10 11:54:26.327 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [757ms]
+2024-10-10 11:54:26.327 [info] > git status -z -uall [894ms]
+2024-10-10 11:54:30.113 [info] > git merge-base refs/heads/main refs/remotes/origin/main [125ms]
+2024-10-10 11:54:30.241 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [91ms]
+2024-10-10 11:54:30.605 [info] > git check-ignore -v -z --stdin [99ms]
+2024-10-10 11:54:38.976 [info] > git check-ignore -v -z --stdin [86ms]

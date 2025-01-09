@@ -1,0 +1,53 @@
+import { Column, Entity, ManyToOne, OneToOne, PrimaryColumn, Relation } from "typeorm";
+import { EventSchema } from "./event.schema";
+
+@Entity()
+export class BasicInformationSchema {
+    @PrimaryColumn({ unique: true })
+    id: number;
+
+    @Column()
+    eventName: string;
+
+    @Column('simple-array')
+    eventTypes: string[];
+
+    @Column()
+    eventCategory: string;
+
+    @Column('simple-array')
+    tags: string[];
+
+    @Column()
+    isOnline: boolean;
+
+    @Column()
+    address?: string;
+
+    @Column()
+    address2?: string;
+
+    @Column()
+    city?: string;
+
+    @Column()
+    region?: string;
+
+    @Column()
+    zipCode?: string;
+
+    @Column()
+    country?: string;
+
+    @Column()
+    startDate: Date;
+
+    @Column()
+    endDate: Date;
+
+    @Column()
+    timeZone: string;
+
+    @Column()
+    createdAt: Date;
+}

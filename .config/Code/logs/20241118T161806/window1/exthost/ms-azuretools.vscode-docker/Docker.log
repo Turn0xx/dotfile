@@ -1,0 +1,11 @@
+2024-11-18 16:18:31.698 [error] Cannot connect to the Docker daemon at unix:///home/mouad/.docker/desktop/docker.sock. Is the docker daemon running?
+
+2024-11-18 16:18:31.698 [error] Cannot connect to the Docker daemon at unix:///home/mouad/.docker/desktop/docker.sock. Is the docker daemon running?
+
+2024-11-18 16:18:31.698 [error] Cannot connect to the Docker daemon at unix:///home/mouad/.docker/desktop/docker.sock. Is the docker daemon running?
+
+2024-11-18 16:18:31.766 [error] Cannot connect to the Docker daemon at unix:///home/mouad/.docker/desktop/docker.sock. Is the docker daemon running?
+
+2024-11-18 16:18:31.895 [error] Cannot connect to the Docker daemon at unix:///home/mouad/.docker/desktop/docker.sock. Is the docker daemon running?
+
+2024-11-18 16:18:31.896 [error] Failed to set up event listener: Cannot connect to the Docker daemon at unix:///home/mouad/.docker/desktop/docker.sock. Is the docker daemon running?

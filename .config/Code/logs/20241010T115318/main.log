@@ -1,0 +1,10 @@
+2024-10-10 11:53:18.560 [info] update#setState idle
+2024-10-10 11:53:50.298 [info] update#setState checking for updates
+2024-10-10 11:53:50.990 [info] update#setState available for download
+2024-10-10 11:54:07.671 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-10 11:54:15.461 [error] CodeWindow: detected unresponsive
+2024-10-10 11:54:19.150 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-10 11:55:12.369 [error] CodeWindow: detected unresponsive
+2024-10-10 11:56:00.806 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-10 11:56:40.893 [warning] No ptyHost heartbeat after 6 seconds
+2024-10-10 11:57:01.404 [warning] No ptyHost heartbeat after 6 seconds

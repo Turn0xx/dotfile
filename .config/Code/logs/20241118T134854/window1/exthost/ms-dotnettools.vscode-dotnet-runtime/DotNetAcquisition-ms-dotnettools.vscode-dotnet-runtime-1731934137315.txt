@@ -1,0 +1,545 @@
+11/18/2024, 1:48:57 PM DotnetWSLCheckEvent
+true
+Checking if system is WSL. OS: linux
+
+11/18/2024, 1:48:57 PM DotnetWSLOperationOutputEvent
+The output of the WSL check:
+stdout: 
+stderr: 
+status: 1
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.bat for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.clojure for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.coffeescript for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.configuration-editing for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.cpp for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.csharp for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.css for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.css-language-features for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.dart for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.debug-auto-launch for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.debug-server-ready for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.diff for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.docker for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.emmet for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.extension-editing for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.fsharp for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.git for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.git-base for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.github for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.github-authentication for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.go for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.groovy for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.grunt for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.gulp for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.handlebars for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.hlsl for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.html for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.html-language-features for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.ini for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.ipynb for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.jake for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.java for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.javascript for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.json for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.json-language-features for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.julia for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.latex for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.less for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.log for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.lua for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.make for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.markdown for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.markdown-language-features for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.markdown-math for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.media-preview for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.merge-conflict for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.microsoft-authentication for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.js-debug for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.js-debug-companion for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.vscode-js-profile-table for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.builtin-notebook-renderers for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.npm for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.objective-c for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.perl for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.php for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.php-language-features for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.powershell for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.pug for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.python for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.r for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.razor for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.references-view for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.restructuredtext for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.ruby for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.rust for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.scss for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.search-result for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.shaderlab for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.shellscript for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.simple-browser for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.sql for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.swift for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-abyss for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-defaults for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-kimbie-dark for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-monokai for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-monokai-dimmed for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-quietlight for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-red for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.vscode-theme-seti for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-solarized-dark for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-solarized-light for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.theme-tomorrow-night-blue for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.tunnel-forwarding for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.typescript for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.typescript-language-features for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.vb for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.xml for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscode.yaml for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension aaron-bond.better-comments for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension AndenetAlexander.vim-cheatsheet for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension codezombiech.gitignore for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension daohong-emilio.yash for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension devantler.git-extension-pack-new for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension donjayamanne.githistory for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ecmel.vscode-html-css for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension esbenp.prettier-vscode for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension GitHub.copilot for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension GitHub.copilot-chat for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension GitHub.github-vscode-theme for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension github.vscode-github-actions for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension GitHub.vscode-pull-request-github for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension GitLab.gitlab-workflow for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension JakeBecker.elixir-ls for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension jeff-hykin.better-cpp-syntax for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension luniclynx.lex for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension mhutchie.git-graph for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension MichaelCurrin.auto-commit-msg for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-azuretools.vscode-docker for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension MS-CEINTL.vscode-language-pack-fr for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csdevkit for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.csharp for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-dotnettools.vscode-dotnet-runtime for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode-remote.remote-containers for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode-remote.remote-ssh for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode-remote.remote-ssh-edit for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode-remote.remote-wsl for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cpptools-extension-pack for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ms-vscode.cpptools-themes for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension piotrpalarz.vscode-gitignore-generator for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension PKief.material-icon-theme for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension qwtel.sqlite-viewer for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension ritwickdey.LiveServer for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension sibiraj-s.vscode-scss-formatter for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension slevesque.shader for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension steoates.autoimport for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension svelte.svelte-vscode for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension usernamehw.errorlens for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vadimcn.vscode-lldb for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vitest.explorer for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension vscodevim.vim for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension wix.vscode-import-cost for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension YoavBls.pretty-ts-errors for .NET installation requests
+
+11/18/2024, 1:48:57 PM DotnetVSCodeExtensionFound
+true
+Checking extension Zignd.html-css-class-completion for .NET installation requests

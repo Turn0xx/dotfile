@@ -1,0 +1,122 @@
+{
+    "sync.gist": "3b1a87bd45058040e54a8156e822c33f",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.db": "sqlite-viewer.option"
+    },
+    "hexeditor.columnWidth": 16,
+    "hexeditor.showDecodedText": true,
+    "hexeditor.defaultEndianness": "little",
+    "hexeditor.inspectorType": "aside",
+    "bracketPairColorizer.depreciation-notice": false,
+    "rpc.buttonEnabled": true,
+    "discord.removeRemoteRepository": true,
+    "gitlab-notifications.refreshInterval": 100,
+    "gitlab-notifications.privateToken": "glpat-z1b_migQz-72cVVX33GS",
+    "gitlab-notifications.hideIfNone": false,
+    "git-graph.dialog.addTag.pushToRemote": true,
+    "git-graph.dialog.cherryPick.recordOrigin": true,
+    "git-graph.referenceLabels.alignment": "Branches (aligned to the graph) & Tags (on the right)",
+    "workbench.colorTheme": "GitHub Dark",
+    "editor.inlineSuggest.enabled": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git-graph.dialog.cherryPick.noCommit": true,
+    "git-graph.dialog.applyStash.reinstateIndex": true,
+    "git-graph.dialog.createBranch.checkOut": true,
+    "git-graph.dialog.deleteBranch.forceDelete": true,
+    "git-graph.dialog.fetchIntoLocalBranch.forceFetch": true,
+    "git-graph.dialog.fetchRemote.prune": true,
+    "git-graph.dialog.fetchRemote.pruneTags": true,
+    "git-graph.dialog.general.referenceInputSpaceSubstitution": "Hyphen",
+    "git-graph.dialog.merge.noCommit": true,
+    "git-graph.dialog.merge.squashCommits": true,
+    "git-graph.graph.style": "angular",
+    "git-graph.repository.commits.mute.commitsThatAreNotAncestorsOfHead": true,
+    "git-graph.repository.onLoad.showCheckedOutBranch": true,
+    "git-graph.repository.includeCommitsMentionedByReflogs": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git-graph.contextMenuActionsVisibility": {},
+    "git-graph.dialog.merge.squashMessageFormat": "Git SQUASH_MSG",
+    "git-graph.dialog.popStash.reinstateIndex": true,
+    "git-graph.dialog.pullBranch.squashMessageFormat": "Git SQUASH_MSG",
+    "git-graph.maxDepthOfRepoSearch": 4,
+    "git-graph.repository.commits.showSignatureStatus": true,
+    "git-graph.repository.onLoad.showSpecificBranches": ["features/"],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "window.menuBarVisibility": "compact",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "editor.lineNumbers": "relative",
+    "vim.leader": " ",
+    "vim.insertModeKeyBindingsNonRecursive": [],
+    "vim.insertModeKeyBindings": [
+        { "before": ["j", "j"], "after": ["<Esc>"] },
+        { "before": ["<C-c>"], "after": ["<Esc>"] }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        { "before": ["leader", "q"], "commands": [":q"] },
+
+        //navigation
+        { "before": ["leader", "p"], "commands": [":bprevious"] },
+        { "before": ["leader", "n"], "commands": [":bnext"] },
+        { "before": ["leader", "h"], "commands": [":tabprevious"] },
+        
+        //split
+        { "before": ["leader", "\\"], "commands": [":vsplit"] },
+        { "before": ["leader", "|"], "commands": [":split"] },
+        { "before": ["<C-d>"], "after": ["<C-d>" , "z" , "z"] },
+        { "before": ["<C-u>"], "after": ["<C-u>" , "z" , "z"] }, 
+        //split navigati
+        { "before": ["C-h"], "commands": ["workbench.action.focusLeftGroup"] },
+        { "before": ["C-j"], "commands": ["workbench.action.focusBelowGroup"] },
+        { "before": ["C-k"], "commands": ["workbench.action.focusAboveGroup"] },
+        { "before": ["C-l"], "commands": ["workbench.action.focusRightGroup"] },
+
+        //misc
+        {
+            "before": ["leader", "f"],
+            "commands": ["workbench.action.quickOpen"]
+        },
+        {
+            "before": ["leader", "F"],
+            "commands": ["editor.action.formatDocument"]
+        },
+        {
+            "before": ["leader", "o" , "e"],
+            "commands": ["workbench.explorer.fileView.focus"]
+        },
+        {
+            "before": ["leader", "c"],
+            "commands": ["workbench.action.closeActiveEditor"]
+        }
+    ],
+    "vim.highlightedyank.enable": true,
+    "vim.easymotion": true,
+    "prettier.tabWidth": 4,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vim.operatorPendingModeKeyBindingsNonRecursive": [
+    
+    ],
+    "vim.visualModeKeyBindings": [
+
+
+
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.autofetch": true,
+    "window.zoomLevel": -1,
+    "editor.tabSize": 2
+}

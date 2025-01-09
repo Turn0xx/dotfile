@@ -1,0 +1,6 @@
+Activating GitHub Actions extension...
+Error getting GitHub context
+User did not consent to login.
+Error: User did not consent to login.
+    at l.w (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1616:66112)
+    at async l.$getSession (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1616:66885)

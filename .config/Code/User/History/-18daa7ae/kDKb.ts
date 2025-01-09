@@ -1,0 +1,29 @@
+import passport from 'passport';
+import { EmailValidationService } from '../../../../notification-services/emails/application/email-validation.service';
+import {
+  TokenValidationCommand,
+  parseTokenValidationCommand,
+} from '../commands/token-validation.command';
+import { ClientRepository } from '../client.repository';
+
+export class ValidateTokenUseCase {
+  constructor(
+    private emailService: EmailValidationService,
+    private clientRepository: ClientRepository,
+  ) {}
+
+  async handle(tokenValidationCommand: TokenValidationCommand) {
+    parseTokenValidationCommand(tokenValidationCommand);
+
+    try {
+      await this.emailService.validateEmail(
+        tokenValidationCommand.id,
+        tokenValidationCommand.token,
+      );
+
+      await this.clientRepository.verifyClient(tokenValidationCommand.id);
+    } catch (error) {
+      throw error;
+    }
+  }
+}

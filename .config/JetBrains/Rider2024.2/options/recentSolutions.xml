@@ -1,0 +1,41 @@
+<application>
+  <component name="RiderRecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Documents/Epitech/Trinity/DevOps/backend/backend.sln">
+          <value>
+            <RecentProjectMetaInfo frameTitle="backend – Program.cs" projectWorkspaceId="2oQevgSPV8BBqi7KeFyi7BymnrI">
+              <option name="activationTimestamp" value="1730806949715" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RD-242.23726.100" />
+              <option name="buildTimestamp" value="1729617600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="67" y="27" width="1853" height="1053" extendedState="6" />
+              <option name="productionCode" value="RD" />
+              <option name="projectOpenTimestamp" value="1730806728782" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/CompanyName.MyMeetings.sln">
+          <value>
+            <RecentProjectMetaInfo frameTitle="CompanyName.MyMeetings – MemberRepository.cs" opened="true" projectWorkspaceId="2oS27SKzwUz5SXc8x8XX5sWtoUE">
+              <option name="activationTimestamp" value="1730848970754" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="RD-242.23726.100" />
+              <option name="buildTimestamp" value="1729617600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="199" y="13" width="1400" height="1000" extendedState="6" />
+              <option name="productionCode" value="RD" />
+              <option name="projectOpenTimestamp" value="1730848490210" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/Documents/Personal/ModularMonolithDDD/src/CompanyName.MyMeetings.sln" />
+  </component>
+</application>

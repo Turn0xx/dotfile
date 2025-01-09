@@ -1,0 +1,1380 @@
+Running /home/mouad/.vscode/extensions/jakebecker.elixir-ls-0.23.1/elixir-ls-release/launch.sh
+Preferred shell is zsh, relaunching
+Looking for ASDF install
+ASDF not found
+Looking for mise executable
+mise not found
+Looking for rtx executable
+rtx not found
+Looking for vfox executable
+vfox not found
+Installing ElixirLS release v0.23.0
+Running in /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+Install complete
+[Info  - 11:58:15 AM] Started ElixirLS v0.23.0
+[Info  - 11:58:15 AM] Running in /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+[Info  - 11:58:15 AM] ElixirLS built with elixir "1.15.7" on OTP "26"
+[Info  - 11:58:15 AM] Running on elixir "1.15.7 (compiled with Erlang/OTP 26)" on OTP "26"
+[Info  - 11:58:15 AM] Protocols are not consolidated
+[Warn  - 11:58:15 AM] OTP compiled without EEP48 documentation chunks. Language features for erlang modules will run in limited mode. Please reinstall or rebuild OTP with appropriate flags.
+[Info  - 11:58:15 AM] Elixir sources not found (checking in /build/elixir-lang-BUW2FG/elixir-lang-1.15.7). Code navigation to Elixir modules disabled.
+[Info  - 11:58:15 AM] OTP sources not found (checking in /usr/lib/erlang). Code navigation to OTP modules disabled.
+[Info  - 11:58:15 AM] Received client configuration via workspace/configuration
+%{"additionalWatchedExtensions" => [], "autoBuild" => true, "autoInsertRequiredAlias" => true, "dialyzerEnabled" => true, "dialyzerFormat" => "dialyxir_long", "dialyzerWarnOpts" => [], "enableTestLenses" => false, "envVariables" => %{}, "fetchDeps" => false, "incrementalDialyzer" => true, "languageServerOverridePath" => "", "mixEnv" => "test", "mixTarget" => "", "projectDir" => "TimeManager", "signatureAfterComplete" => true, "suggestSpecs" => true, "trace" => %{"server" => "off"}, "useCurrentRootFolderAsProjectDir" => false}
+[Info  - 11:58:15 AM] Registering for workspace/didChangeConfiguration notifications
+[Info  - 11:58:15 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Info  - 11:58:15 AM] client/registerCapability succeeded
+[Info  - 11:58:15 AM] Registering for workspace/didChangeWatchedFiles notifications
+[Info  - 11:58:15 AM] client/registerCapability succeeded
+[Info  - 11:58:15 AM] Loaded DETS databases in 40ms
+[Warn  - 11:58:15 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:15 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:58:16 AM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (SyntaxError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:15:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< Updated upstream
+    |
+ 15 | <<<<<<< Updated upstream
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 11:58:16 AM] Compile took 373 milliseconds
+[Info  - 11:58:16 AM] [ElixirLS WorkspaceSymbols] Indexing...
+[Info  - 11:58:16 AM] [ElixirLS WorkspaceSymbols] Module discovery complete
+[Info  - 11:58:16 AM] [ElixirLS WorkspaceSymbols] 11 symbols added to index in 6ms
+[Warn  - 11:58:50 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 11:58:50 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 1, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Info  - 11:58:51 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 11:58:52 AM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 11:58:52 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:58:52 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:58:52 AM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (SyntaxError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< Updated upstream
+    |
+ 11 | <<<<<<< Updated upstream
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 11:58:52 AM] Compile took 594 milliseconds
+[Info  - 11:58:52 AM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 11:58:52 AM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 11:58:52 AM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Warn  - 11:59:26 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 11:59:26 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 1, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Info  - 11:59:27 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 11:59:27 AM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 11:59:27 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:27 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:59:28 AM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (SyntaxError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< Updated upstream
+    |
+ 11 | <<<<<<< Updated upstream
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 11:59:28 AM] Compile took 604 milliseconds
+[Info  - 11:59:28 AM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 11:59:28 AM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 11:59:28 AM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Warn  - 11:59:31 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 11:59:31 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 1, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Info  - 11:59:32 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 11:59:32 AM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 11:59:33 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:33 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:59:33 AM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (SyntaxError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< Updated upstream
+    |
+ 11 | <<<<<<< Updated upstream
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 11:59:33 AM] Compile took 619 milliseconds
+[Info  - 11:59:33 AM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 11:59:33 AM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 11:59:33 AM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Warn  - 11:59:33 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 11:59:33 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 1, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Info  - 11:59:34 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 11:59:34 AM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 11:59:35 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:35 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:59:35 AM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (SyntaxError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< Updated upstream
+    |
+ 11 | <<<<<<< Updated upstream
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 11:59:35 AM] Compile took 619 milliseconds
+[Info  - 11:59:35 AM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 11:59:35 AM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 11:59:35 AM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Warn  - 11:59:36 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 11:59:36 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 1, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Info  - 11:59:37 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 11:59:37 AM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 11:59:37 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:37 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:59:37 AM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (SyntaxError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< Updated upstream
+    |
+ 11 | <<<<<<< Updated upstream
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 11:59:37 AM] Compile took 590 milliseconds
+[Info  - 11:59:37 AM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 11:59:37 AM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 11:59:37 AM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Warn  - 11:59:38 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 11:59:38 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 1, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Info  - 11:59:39 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 11:59:39 AM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 11:59:40 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:40 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:59:40 AM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (SyntaxError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< Updated upstream
+    |
+ 11 | <<<<<<< Updated upstream
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 11:59:40 AM] Compile took 604 milliseconds
+[Info  - 11:59:40 AM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 11:59:40 AM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 11:59:40 AM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Warn  - 11:59:41 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 11:59:41 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 1, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Info  - 11:59:42 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 11:59:42 AM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 11:59:42 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:42 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:59:42 AM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (SyntaxError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< Updated upstream
+    |
+ 11 | <<<<<<< Updated upstream
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 11:59:42 AM] Compile took 618 milliseconds
+[Info  - 11:59:42 AM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 11:59:42 AM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 11:59:42 AM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Warn  - 11:59:46 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.UserController (module)
+
+[Warn  - 11:59:46 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.UserController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 2, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Warn  - 11:59:57 AM] error: module TimeManagerWeb is not loaded and could not be found
+  nofile: TimeManagerWeb.UserController (module)
+
+[Warn  - 11:59:57 AM] ** (ErlangError) Erlang error: "CompileError during metadata build pre:\nnofile: cannot compile module TimeManagerWeb.UserController (errors have been logged)\nast node: {:use, [end_of_expression: [newlines: 2, line: 2, column: 34], line: 2, column: 3], [{:__aliases__, [last: [line: 2, column: 7], line: 2, column: 7], [:TimeManagerWeb]}, :controller]}"
+    (elixir 1.15.7) src/elixir_expand.erl:92: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir_expand.erl:538: :elixir_expand.expand_block/5
+    (elixir 1.15.7) src/elixir_expand.erl:46: :elixir_expand.expand/3
+    (elixir 1.15.7) src/elixir.erl:463: :elixir.quoted_to_erl/4
+    (elixir 1.15.7) src/elixir.erl:339: :elixir.eval_forms/4
+    (elixir 1.15.7) lib/module/parallel_checker.ex:112: Module.ParallelChecker.verify/1
+    (elixir 1.15.7) lib/code.ex:543: Code.validated_eval_string/3
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:24: ElixirSense.Core.MacroExpander.require_and_expand/2
+    (elixir 1.15.7) lib/macro.ex:688: anonymous fn/4 in Macro.do_traverse_args/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (stdlib 5.2.3.1) lists.erl:1706: :lists.mapfoldl_1/3
+    (elixir 1.15.7) lib/macro.ex:653: Macro.do_traverse/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/macro_expander.ex:18: ElixirSense.Core.MacroExpander.expand_use/4
+    (elixir_sense 2.0.0) lib/elixir_sense/core/state.ex:1690: ElixirSense.Core.State.expand/3
+
+[Info  - 11:59:58 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 11:59:58 AM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 11:59:58 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 11:59:58 AM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 11:59:58 AM] warning: unused alias Clock
+  lib/time_manager/timetracking/domain/clock.ex:5:3
+
+[Warn  - 11:59:58 AM] warning: unused alias WorkingTime
+  lib/time_manager/timetracking/domain/working-time.ex:5:3
+
+[Warn  - 11:59:58 AM] error: undefined variable "message"
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:71: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 11:59:58 AM] warning: function render_error/3 is unused
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:96: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 11:59:58 AM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (CompileError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)
+
+[Info  - 11:59:58 AM] Compile took 889 milliseconds
+[Info  - 11:59:58 AM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 11:59:58 AM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 11:59:58 AM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 11:59:59 AM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 12:00:00 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 12:00:00 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:00 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 12:00:00 PM] warning: function render_error/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:109: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:00 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:00 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.UserController (errors have been logged)
+
+[Info  - 12:00:00 PM] Compile took 731 milliseconds
+[Info  - 12:00:00 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 12:00:00 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 12:00:00 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 12:00:01 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 12:00:01 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 12:00:01 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:01 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 12:00:01 PM] warning: function render_error/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:109: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:01 PM] warning: function render_users/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:102: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:01 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:01 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:23: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:01 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.UserController (errors have been logged)
+
+[Info  - 12:00:01 PM] Compile took 709 milliseconds
+[Info  - 12:00:01 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 12:00:01 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 12:00:01 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 12:00:02 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 12:00:03 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 12:00:03 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:03 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 12:00:03 PM] warning: function render_error/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:109: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:03 PM] warning: function render_users/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:102: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:03 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:03 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:23: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:03 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:30: TimeManagerWeb.UserController.show/2
+
+[Warn  - 12:00:03 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.UserController (errors have been logged)
+
+[Info  - 12:00:03 PM] Compile took 716 milliseconds
+[Info  - 12:00:03 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 12:00:03 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 12:00:03 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 12:00:04 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 12:00:05 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 12:00:05 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:05 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 12:00:05 PM] warning: function render_error/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:109: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:05 PM] warning: function render_users/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:102: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:05 PM] error: undefined function render_result/3 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:42: TimeManagerWeb.UserController.create/2
+
+[Warn  - 12:00:05 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:05 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:23: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:05 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:30: TimeManagerWeb.UserController.show/2
+
+[Warn  - 12:00:05 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.UserController (errors have been logged)
+
+[Info  - 12:00:05 PM] Compile took 767 milliseconds
+[Info  - 12:00:05 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 12:00:05 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 12:00:05 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 12:00:08 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 12:00:08 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 12:00:09 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:09 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 12:00:09 PM] warning: function render_error/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:109: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:09 PM] warning: default values for the optional arguments in render_user/3 are never used
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:95: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:09 PM] warning: function render_users/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:102: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:09 PM] error: undefined function render_result/3 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:42: TimeManagerWeb.UserController.create/2
+
+[Warn  - 12:00:09 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:09 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:23: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:09 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:30: TimeManagerWeb.UserController.show/2
+
+[Warn  - 12:00:09 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:55: TimeManagerWeb.UserController.update/2
+
+[Warn  - 12:00:09 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.UserController (errors have been logged)
+
+[Info  - 12:00:09 PM] Compile took 753 milliseconds
+[Info  - 12:00:09 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 12:00:09 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 12:00:09 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 12:00:11 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 12:00:11 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 12:00:11 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:11 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 12:00:11 PM] warning: function render_error/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:109: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:11 PM] warning: function render_user/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:95: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:11 PM] warning: function render_users/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:102: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:11 PM] error: undefined function render_result/3 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:42: TimeManagerWeb.UserController.create/2
+
+[Warn  - 12:00:11 PM] error: undefined function render_result/3 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:86: TimeManagerWeb.UserController.delete/2
+
+[Warn  - 12:00:11 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:11: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:11 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:23: TimeManagerWeb.UserController.index/2
+
+[Warn  - 12:00:11 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:30: TimeManagerWeb.UserController.show/2
+
+[Warn  - 12:00:11 PM] error: undefined function render_result/2 (expected TimeManagerWeb.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:55: TimeManagerWeb.UserController.update/2
+
+[Warn  - 12:00:11 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.UserController (errors have been logged)
+
+[Info  - 12:00:11 PM] Compile took 726 milliseconds
+[Info  - 12:00:11 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 12:00:11 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 12:00:11 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 12:00:13 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 12:00:13 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+[Warn  - 12:00:13 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :poison is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :ex_json_schema is duplicated at the top level, please remove one of them
+[Warn  - 12:00:13 PM] warning: the dependency :phoenix_swagger is duplicated at the top level, please remove one of them
+Compiling 29 files (.ex)
+[Warn  - 12:00:13 PM] warning: function render_error/3 is unused
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:109: TimeManagerWeb.UserController (module)
+
+[Warn  - 12:00:14 PM] error: undefined variable "message"
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:71: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 12:00:14 PM] warning: function render_error/3 is unused
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:96: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (module)
+
+[Warn  - 12:00:14 PM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (CompileError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)
+
+[Info  - 12:00:14 PM] Compile took 874 milliseconds
+[Info  - 12:00:14 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 12:00:14 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 12:00:14 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 12:01:28 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 12:01:29 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 12:01:29 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (SyntaxError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:10:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< HEAD
+    |
+ 10 | <<<<<<< HEAD
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 12:01:29 PM] Compile took 633 milliseconds
+[Info  - 12:01:29 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 12:01:29 PM] [ElixirLS WorkspaceSymbols] 2 modules need reindexing
+[Info  - 12:01:29 PM] [ElixirLS WorkspaceSymbols] 9 symbols added to index in 1ms
+[Info  - 1:28:12 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:12 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:12 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:100: TimeManagerWeb.Accounts.Infrastructure.UserController.delete/2
+
+[Warn  - 1:28:12 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:15: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:12 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:48: TimeManagerWeb.Accounts.Infrastructure.UserController.show_by_email_and_username/2
+
+[Warn  - 1:28:12 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:74: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:12 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:79: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:12 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:85: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:12 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.Accounts.Infrastructure.UserController (errors have been logged)
+
+[Info  - 1:28:12 PM] Compile took 720 milliseconds
+[Info  - 1:28:12 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:12 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:12 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:18 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:18 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:19 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:99: TimeManagerWeb.Accounts.Infrastructure.UserController.delete/2
+
+[Warn  - 1:28:19 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:10: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:19 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:14: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:19 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:47: TimeManagerWeb.Accounts.Infrastructure.UserController.show_by_email_and_username/2
+
+[Warn  - 1:28:19 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:73: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:19 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:78: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:19 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:84: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:19 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.Accounts.Infrastructure.UserController (errors have been logged)
+
+[Info  - 1:28:19 PM] Compile took 822 milliseconds
+[Info  - 1:28:19 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:19 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:19 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:22 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:22 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:22 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:98: TimeManagerWeb.Accounts.Infrastructure.UserController.delete/2
+
+[Warn  - 1:28:22 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:10: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:22 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:14: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:22 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:22: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:22 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:46: TimeManagerWeb.Accounts.Infrastructure.UserController.show_by_email_and_username/2
+
+[Warn  - 1:28:22 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:72: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:22 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:77: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:22 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:83: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:22 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.Accounts.Infrastructure.UserController (errors have been logged)
+
+[Info  - 1:28:22 PM] Compile took 841 milliseconds
+[Info  - 1:28:22 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:22 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:22 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:23 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:24 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:24 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:85: TimeManagerWeb.Accounts.Infrastructure.UserController.delete/2
+
+[Warn  - 1:28:24 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:10: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:24 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:14: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:24 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:22: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:24 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:29: TimeManagerWeb.Accounts.Infrastructure.UserController.show/2
+
+[Warn  - 1:28:24 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:33: TimeManagerWeb.Accounts.Infrastructure.UserController.show/2
+
+[Warn  - 1:28:24 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:59: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:24 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:64: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:24 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:70: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:24 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.Accounts.Infrastructure.UserController (errors have been logged)
+
+[Info  - 1:28:24 PM] Compile took 802 milliseconds
+[Info  - 1:28:24 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:24 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:24 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:26 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:26 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:27 PM] error: undefined function render_result/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:40: TimeManagerWeb.Accounts.Infrastructure.UserController.create/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:82: TimeManagerWeb.Accounts.Infrastructure.UserController.delete/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:10: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:14: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:22: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:29: TimeManagerWeb.Accounts.Infrastructure.UserController.show/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:33: TimeManagerWeb.Accounts.Infrastructure.UserController.show/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:56: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:61: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:27 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:67: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:27 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.Accounts.Infrastructure.UserController (errors have been logged)
+
+[Info  - 1:28:27 PM] Compile took 720 milliseconds
+[Info  - 1:28:27 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:27 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:27 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:28 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:28 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:29 PM] error: undefined function render_result/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:40: TimeManagerWeb.Accounts.Infrastructure.UserController.create/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:81: TimeManagerWeb.Accounts.Infrastructure.UserController.delete/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:10: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:14: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:22: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:29: TimeManagerWeb.Accounts.Infrastructure.UserController.show/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:33: TimeManagerWeb.Accounts.Infrastructure.UserController.show/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:51: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:55: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:60: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:29 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:66: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:29 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.Accounts.Infrastructure.UserController (errors have been logged)
+
+[Info  - 1:28:29 PM] Compile took 763 milliseconds
+[Info  - 1:28:29 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:29 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:29 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:31 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:31 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:32 PM] error: undefined function render_result/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:40: TimeManagerWeb.Accounts.Infrastructure.UserController.create/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_result/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:75: TimeManagerWeb.Accounts.Infrastructure.UserController.delete/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:79: TimeManagerWeb.Accounts.Infrastructure.UserController.delete/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:10: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:14: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:22: TimeManagerWeb.Accounts.Infrastructure.UserController.index/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:29: TimeManagerWeb.Accounts.Infrastructure.UserController.show/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:33: TimeManagerWeb.Accounts.Infrastructure.UserController.show/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_result/2 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:51: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:55: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:60: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:32 PM] error: undefined function render_error/3 (expected TimeManagerWeb.Accounts.Infrastructure.UserController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/accounts/infrastructure/controllers/user.controller.ex:66: TimeManagerWeb.Accounts.Infrastructure.UserController.update/2
+
+[Warn  - 1:28:32 PM] 
+== Compilation error in file lib/time_manager/accounts/infrastructure/controllers/user.controller.ex ==
+** (CompileError) lib/time_manager/accounts/infrastructure/controllers/user.controller.ex: cannot compile module TimeManagerWeb.Accounts.Infrastructure.UserController (errors have been logged)
+
+[Info  - 1:28:32 PM] Compile took 733 milliseconds
+[Info  - 1:28:32 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:32 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:32 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:33 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:34 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:34 PM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (SyntaxError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:15:1: found an unexpected version control marker, please resolve the conflicts: <<<<<<< HEAD
+    |
+ 15 | <<<<<<< HEAD
+    | ^
+    (elixir 1.15.7) lib/kernel/parallel_compiler.ex:377: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+[Info  - 1:28:34 PM] Compile took 775 milliseconds
+[Info  - 1:28:34 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:34 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:34 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:40 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:41 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:41 PM] warning: variable "message" is unused (if the variable is not meant to be used, prefix it with an underscore)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:76: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:41 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:78: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:41 PM] error: undefined function render_error/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:83: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:41 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:30: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:41 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:61: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.update/2
+
+[Warn  - 1:28:41 PM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (CompileError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)
+
+[Info  - 1:28:41 PM] Compile took 826 milliseconds
+[Info  - 1:28:41 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:41 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:41 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:42 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:43 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:43 PM] warning: variable "message" is unused (if the variable is not meant to be used, prefix it with an underscore)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:74: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:43 PM] error: undefined function render_result/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:15: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.create/2
+
+[Warn  - 1:28:43 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:76: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:43 PM] error: undefined function render_error/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:81: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:43 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:28: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:43 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:59: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.update/2
+
+[Warn  - 1:28:43 PM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (CompileError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)
+
+[Info  - 1:28:43 PM] Compile took 872 milliseconds
+[Info  - 1:28:43 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:43 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:43 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:44 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:45 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:45 PM] warning: variable "message" is unused (if the variable is not meant to be used, prefix it with an underscore)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:72: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:45 PM] error: undefined function render_result/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:15: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.create/2
+
+[Warn  - 1:28:45 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:74: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:45 PM] error: undefined function render_error/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:79: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:45 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:22: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:45 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:26: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:45 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:57: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.update/2
+
+[Warn  - 1:28:45 PM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (CompileError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)
+
+[Info  - 1:28:45 PM] Compile took 888 milliseconds
+[Info  - 1:28:45 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:45 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:45 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:47 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:47 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:48 PM] warning: variable "message" is unused (if the variable is not meant to be used, prefix it with an underscore)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:70: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:48 PM] error: undefined function render_result/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:15: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.create/2
+
+[Warn  - 1:28:48 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:72: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:48 PM] error: undefined function render_error/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:77: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:48 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:22: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:48 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:26: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:48 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:38: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:48 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:55: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.update/2
+
+[Warn  - 1:28:48 PM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (CompileError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)
+
+[Info  - 1:28:48 PM] Compile took 904 milliseconds
+[Info  - 1:28:48 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:48 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:48 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:50 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:51 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:51 PM] warning: variable "message" is unused (if the variable is not meant to be used, prefix it with an underscore)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:68: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:51 PM] error: undefined function render_result/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:15: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.create/2
+
+[Warn  - 1:28:51 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:70: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:51 PM] error: undefined function render_error/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:75: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:51 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:22: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:51 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:26: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:51 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:38: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:51 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:49: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.update/2
+
+[Warn  - 1:28:51 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:53: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.update/2
+
+[Warn  - 1:28:51 PM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (CompileError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)
+
+[Info  - 1:28:51 PM] Compile took 958 milliseconds
+[Info  - 1:28:51 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:51 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:51 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:52 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:53 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+[Warn  - 1:28:53 PM] error: undefined function render_result/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:15: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.create/2
+
+[Warn  - 1:28:53 PM] error: undefined function render_result/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:61: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:53 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:65: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:53 PM] error: undefined function render_error/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:70: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.delete/2
+
+[Warn  - 1:28:53 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:22: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:53 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:26: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:53 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:38: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.show/2
+
+[Warn  - 1:28:53 PM] error: undefined function render_result/2 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:49: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.update/2
+
+[Warn  - 1:28:53 PM] error: undefined function render_error/3 (expected TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController to define such a function or for it to be imported, but none are available)
+  lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex:53: TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController.update/2
+
+[Warn  - 1:28:53 PM] 
+== Compilation error in file lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex ==
+** (CompileError) lib/time_manager/timetracking/infrastructure/controllers/working-time.controller.ex: cannot compile module TimeManagerWeb.TimeTracking.Infrastructure.WorkingTimeController (errors have been logged)
+
+[Info  - 1:28:53 PM] Compile took 907 milliseconds
+[Info  - 1:28:53 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:53 PM] [ElixirLS WorkspaceSymbols] 0 modules need reindexing
+[Info  - 1:28:53 PM] [ElixirLS WorkspaceSymbols] 0 symbols added to index in 0ms
+[Info  - 1:28:56 PM] Starting build with MIX_ENV: test MIX_TARGET: host
+[Warn  - 1:28:56 PM] warning: String.strip/1 is deprecated. Use String.trim/1 instead
+  /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8/TimeManager/deps/poison/mix.exs:4: Poison.Mixfile (module)
+
+Compiling 28 files (.ex)
+Generated time_manager app
+[Info  - 1:28:57 PM] Compile took 951 milliseconds
+[Info  - 1:28:57 PM] [ElixirLS WorkspaceSymbols] Updating index...
+[Info  - 1:28:57 PM] [ElixirLS WorkspaceSymbols] 1 modules need reindexing
+[Info  - 1:28:57 PM] [ElixirLS WorkspaceSymbols] 9 symbols added to index in 1ms

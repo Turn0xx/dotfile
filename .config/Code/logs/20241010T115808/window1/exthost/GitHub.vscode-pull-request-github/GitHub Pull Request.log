@@ -1,0 +1,33 @@
+2024-10-10 11:58:12.292 [warning] /home/mouad/.ssh/config: ENOENT: no such file or directory, open '/home/mouad/.ssh/config'
+2024-10-10 11:58:12.292 [info] Activation> Extension version: 0.88.1
+2024-10-10 11:58:12.585 [info] Looking for git repository
+2024-10-10 11:58:12.585 [info] Found 0 repositories during activation
+2024-10-10 11:58:12.585 [info] Git repository found, initializing review manager and pr tree view.
+2024-10-10 11:58:12.587 [info] Registering git provider
+2024-10-10 11:58:12.587 [info] Review+0> Validate state in progress
+2024-10-10 11:58:12.587 [info] Review+0> Validating state...
+2024-10-10 11:58:12.625 [info] Found GitHub remote for folder /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10 11:58:13.021 [info] Trying to use globalState for assignableUsers.
+2024-10-10 11:58:13.097 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-10 11:58:13.164 [info] Using globalState assignableUsers for 1.
+2024-10-10 11:58:13.708 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-10 11:58:13.746 [info] Repo state for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8 changed.
+2024-10-10 11:58:13.746 [info] Repo file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8 has already been setup.
+2024-10-10 12:01:16.709 [info] Review+0> Validate state in progress
+2024-10-10 12:01:16.709 [info] Review+0> Validating state...
+2024-10-10 12:01:16.766 [info] Found GitHub remote for folder /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10 12:01:16.767 [info] Using in-memory cached assignable users.
+2024-10-10 12:01:16.780 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-10 12:01:17.363 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-10 13:29:04.543 [info] Review+0> Validate state in progress
+2024-10-10 13:29:04.543 [info] Review+0> Validating state...
+2024-10-10 13:29:04.613 [info] Found GitHub remote for folder /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10 13:29:04.614 [info] Using in-memory cached assignable users.
+2024-10-10 13:29:04.639 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-10 13:29:05.178 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-10-10 13:29:12.828 [info] Review+0> Validate state in progress
+2024-10-10 13:29:12.829 [info] Review+0> Validating state...
+2024-10-10 13:29:12.862 [info] Found GitHub remote for folder /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-10-10 13:29:12.863 [info] Using in-memory cached assignable users.
+2024-10-10 13:29:12.928 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-10-10 13:29:14.004 [info] Review+0> No matching pull request metadata found on GitHub for current branch main

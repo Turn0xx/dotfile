@@ -1,0 +1,33 @@
+Starting Open a solution...
+Starting handling solution file "/home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln" in Dev Kit server...
+Starting Clear environment...
+Starting Spawn .NET server...
+Using preinstalled .NET runtime at "/usr/lib/dotnet/dotnet"
+.NET server started and IPC established in 2389ms
+Completed Spawn .NET server (2718ms)
+Completed Clear environment (3402ms)
+Completed handling solution file "/home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln" in Dev Kit server (3474ms)
+Starting Restore solution...
+Selected configuration: null, active configuration: Debug|Any CPU
+Completed Open a solution (3489ms)
+Starting NuGet restore for the solution.
+Starting command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive...
+Completed command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive (3410ms)
+Completed NuGet restore.
+Completed Restore solution (3414ms)
+Starting NuGet restore for the solution.
+Starting command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive...
+Completed command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive (1584ms)
+Completed NuGet restore.
+Starting NuGet restore for the solution.
+Starting command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive...
+Completed command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive (1751ms)
+Completed NuGet restore.
+Starting NuGet restore for the solution.
+Starting command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive...
+Failed at 'command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive' (10021ms) with error: ExitCodeError: Failed with ExitCode(1)
+Completed NuGet restore with error: DotnetCommandRestoreError: Failed with ExitCode(1)
+Starting NuGet restore for the solution.
+Starting command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive...
+Completed command: "dotnet" restore /home/mouad/Documents/Epitech/Trinity/DevOps/backend/backend.sln --interactive (4142ms)
+Completed NuGet restore.

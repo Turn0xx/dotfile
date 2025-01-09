@@ -1,0 +1,5 @@
+export class ClientTypeOrmRepository { 
+  constructor(
+    
+  )
+}

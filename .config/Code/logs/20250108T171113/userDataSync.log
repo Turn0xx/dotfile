@@ -1,0 +1,13 @@
+2025-01-08 17:11:14.256 [info] Using settings sync service https://vscode-sync.trafficmanager.net/
+2025-01-08 17:11:14.256 [info] Auto Sync is enabled.
+2025-01-08 17:11:14.256 [info] Auto Sync: Suspended until auth token is available.
+2025-01-08 17:11:15.118 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/extensions
+2025-01-08 17:11:15.226 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/globalState
+2025-01-08 17:11:15.281 [info] Auto Sync: Triggered by Interval
+2025-01-08 17:11:15.281 [info] Sync started.
+2025-01-08 17:11:15.283 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/keybindings
+2025-01-08 17:11:15.361 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/profiles
+2025-01-08 17:11:15.385 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/settings
+2025-01-08 17:11:15.434 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/snippets
+2025-01-08 17:11:15.489 [info] Deleting non existing profile from backup /home/mouad/.config/Code/User/sync/tasks
+2025-01-08 17:11:16.019 [info] Settings: Last sync resource does not exist locally.

@@ -1,0 +1,13 @@
+
+lex.yy.c
+lexeur
+lexer
+foo.c
+foo
+parser
+parseur
+*.tab.c
+*.tab.h
+.vscode
+res.txt
+test.txt

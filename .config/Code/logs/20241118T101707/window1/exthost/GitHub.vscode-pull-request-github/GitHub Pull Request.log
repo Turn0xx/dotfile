@@ -1,0 +1,45 @@
+2024-11-18 10:17:21.631 [warning] /home/mouad/.ssh/config: ENOENT: no such file or directory, open '/home/mouad/.ssh/config'
+2024-11-18 10:17:21.631 [info] Activation> Extension version: 0.88.1
+2024-11-18 10:17:21.800 [info] Looking for git repository
+2024-11-18 10:17:21.801 [info] Found 0 repositories during activation
+2024-11-18 10:17:21.801 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-18 10:17:21.804 [info] Registering git provider
+2024-11-18 10:17:21.804 [info] Review+0> Validate state in progress
+2024-11-18 10:17:21.804 [info] Review+0> Validating state...
+2024-11-18 10:17:21.826 [info] Found GitHub remote for folder /home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8
+2024-11-18 10:17:22.287 [info] Trying to use globalState for assignableUsers.
+2024-11-18 10:17:22.359 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-18 10:17:22.450 [info] Using globalState assignableUsers for 1.
+2024-11-18 10:17:22.555 [info] Repo state for file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8 changed.
+2024-11-18 10:17:22.555 [info] Repo file:///home/mouad/Documents/Epitech/Piscine/T-POO-700-STG_8 has already been setup.
+2024-11-18 10:17:22.910 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-11-18 10:17:46.186 [warning] /home/mouad/.ssh/config: ENOENT: no such file or directory, open '/home/mouad/.ssh/config'
+2024-11-18 10:17:46.186 [info] Activation> Extension version: 0.88.1
+2024-11-18 10:17:46.316 [info] Looking for git repository
+2024-11-18 10:17:46.316 [info] Found 0 repositories during activation
+2024-11-18 10:17:46.316 [info] Git repository found, initializing review manager and pr tree view.
+2024-11-18 10:17:50.528 [info] Registering git provider
+2024-11-18 10:17:51.145 [info] Git initialization state changed: state=initialized
+2024-11-18 10:18:05.508 [info] Repository file:///home/mouad/Documents/Epitech/Trinity/DevOps has been opened
+2024-11-18 10:18:05.511 [info] Review+0> Validate state in progress
+2024-11-18 10:18:05.511 [info] Review+0> Validating state...
+2024-11-18 10:18:05.512 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-11-18 10:18:05.512 [info] No GitHub remotes found for folder /home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18 10:18:05.622 [info] Review+0> Validate state in progress
+2024-11-18 10:18:05.622 [info] Review+0> Validating state...
+2024-11-18 10:18:05.623 [info] Repo state for file:///home/mouad/Documents/Epitech/Trinity/DevOps changed.
+2024-11-18 10:18:05.623 [info] Repo file:///home/mouad/Documents/Epitech/Trinity/DevOps has already been setup.
+2024-11-18 10:18:06.399 [info] GitHubServer> Received fallback response from the server: {"error":"API V3 is no longer supported. Use API V4 instead."}
+2024-11-18 10:18:06.399 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-11-18 10:18:06.399 [info] No GitHub remotes found for folder /home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18 10:18:06.402 [info] Trying to use globalState for assignableUsers.
+2024-11-18 10:18:06.421 [info] Using globalState assignableUsers for 0.
+2024-11-18 10:18:06.422 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-18 10:18:06.423 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-11-18 10:18:14.135 [info] Review+0> Validate state in progress
+2024-11-18 10:18:14.135 [info] Review+0> Validating state...
+2024-11-18 10:18:14.137 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-11-18 10:18:14.137 [info] No GitHub remotes found for folder /home/mouad/Documents/Epitech/Trinity/DevOps
+2024-11-18 10:18:14.137 [info] Using in-memory cached assignable users.
+2024-11-18 10:18:14.172 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-11-18 10:18:14.172 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
